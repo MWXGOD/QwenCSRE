@@ -52,13 +52,14 @@ class SRTEDataModule(L.LightningDataModule):
 
         self.relations = ",".join(read_data(os.path.join(self.data_path, "relation.json")))
         self.ins_begin_token = f"{self.audio_bos_token}{self.audio_token}{self.audio_eos_token}"
-        self.ins_instruction_text = f"Please transcribe this voice:"
-        # self.ins_instruction_text = f"{self.ins_begin_token}请从语音中抽取关系三元组，其中关系类型包括:{self.relations}。"
+        # self.ins_instruction_text = f"Please transcribe this voice:"
+        self.ins_instruction_text = f"请从语音中抽取关系三元组，其中关系类型包括:{self.relations}。"
         self.instruction = f"{self.ins_begin_token}\n\n### Instruction:\n{self.ins_instruction_text}\n\n### Response:\n"
         self.instruction_ids = self.processor.tokenizer(
             self.instruction,
             add_special_tokens=False
         )["input_ids"]
+        print("instruction:", self.instruction)
 
         self.stage = "train"
 
