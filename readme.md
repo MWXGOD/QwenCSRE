@@ -139,6 +139,13 @@ lora_kwargs = {
 
 👉 注意这里 **只作用在 language_model 上**
 
+```python
+self.qwenaudio.language_model = get_peft_model(
+    self.qwenaudio.language_model,
+    lora_config
+)
+```
+
 ---
 
 ## 6. 参数冻结策略（关键坑点）

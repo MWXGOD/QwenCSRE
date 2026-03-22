@@ -44,7 +44,6 @@ class SRTEDataModule(L.LightningDataModule):
         self.sample_rate = sample_rate
         self.processor = AutoProcessor.from_pretrained(model_name_or_path)
         self.save_hyperparameters()  # 记录超参更稳, 通过self.hparams.XXX调用
-        # print(111111)
         print(self.hparams)
         self.audio_bos_token = self.processor.audio_bos_token
         self.audio_token = self.processor.audio_token
