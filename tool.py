@@ -13,3 +13,7 @@ def read_data(data_path):
         data = json.load(f)
     return data
     
+def save_data(data_path):
+    with open(data_path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+    
