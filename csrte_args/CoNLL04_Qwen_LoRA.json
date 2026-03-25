@@ -4,7 +4,7 @@
     "output_model_path": "output/CoNLL04/Qwen2Audio-7B_checkpoint",
     "output_result_path": "output/CoNLL04/Qwen2Audio-7B/result",
     "swanlab_project_name": "Qwen2Audio-MWX",
-    "data_path": "./data/CONLL04",
+    "data_path": "./data/CoNLL04",
     "mixed_precision": "bf16",
     "template_name": "qwen",
     "epochs_num": 10,

@@ -21,7 +21,7 @@ class SRTEDataset(Dataset):
         data_item = self.data[index]
         # if "entities" in data_item.keys() and "relations" in data_item.keys():
         #     return data_item["audio_path"], data_item["target_text"], data_item["entities"], data_item["relations"]
-        return data_item["audio_path"], data_item["target_text"]
+        return data_item["audio_path"], '$$'.join(data_item["triplets_list"])
 
 
 
@@ -71,11 +71,11 @@ class SRTEDataModule(L.LightningDataModule):
             # )
 
             # self.train_dataset = Subset(full_train, range(32))
-            self.train_dataset = SRTEDataset(os.path.join(self.data_path, "train_target_RTE.json"))
+            self.train_dataset = SRTEDataset(os.path.join(self.data_path, "train.json"))
         if stage in (None, "dev"):
-            self.dev_dataset = SRTEDataset(os.path.join(self.data_path, "dev_target.json"))
+            self.dev_dataset = SRTEDataset(os.path.join(self.data_path, "dev.json"))
         if stage in (None, "test"):
-            self.test_dataset  = SRTEDataset(os.path.join(self.data_path, "test_target.json"))
+            self.test_dataset  = SRTEDataset(os.path.join(self.data_path, "test.json"))
 
 
 
