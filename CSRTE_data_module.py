@@ -94,7 +94,14 @@ class SRTEDataModule(L.LightningDataModule):
 
             audio_path, srte_answer = x
             # 语音
-            wav, _ = librosa.load(audio_path, sr=self.sample_rate, mono=True)
+            ext = os.path.splitext(audio_path)[1].lower()
+            if ext == ".npy":
+                wav = np.load(audio_path)
+            elif ext == ".wav":
+                wav, _ = librosa.load(audio_path, sr=self.sample_rate, mono=True)
+            else:
+                raise ValueError(f"Unsupported audio file format: {audio_path}")
+
             audio_list.append(wav)
             
             infer_input_text = self.instruction
@@ -216,13 +223,4 @@ if __name__ == "__main__":
 
         labels = batch["labels"].clone()
         labels[labels == -100] = dm.processor.tokenizer.pad_token_id
-        labels = dm.processor.batch_decode(labels, skip_special_tokens=True)
-
-        print(transcription)
-        print(labels)   
-        break
-
-
-
-
-
+        labels = dm.processor.batch_decode(labels, skip_special_tokens=True

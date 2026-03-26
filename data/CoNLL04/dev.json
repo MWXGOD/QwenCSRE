@@ -3,8 +3,8 @@
         "sentence": "John Wilkes Booth , who assassinated President Lincoln , was an actor .",
         "audio_path": "./data/CoNLL04/audio/dev-0.wav",
         "entities_list": [
-            "President Lincoln",
-            "John Wilkes Booth"
+            "John Wilkes Booth",
+            "President Lincoln"
         ],
         "relations_list": [
             "Kill"
@@ -17,10 +17,10 @@
         "sentence": "The opera company performed at the Palace of Fine Arts , in San Francisco , on June 30 and July 1-2 , said Kevin O 'Brien , a spokesman for the theater.",
         "audio_path": "./data/CoNLL04/audio/dev-1.wav",
         "entities_list": [
-            "July 1-2 ,",
-            "Kevin O 'Brien",
-            "Palace of Fine Arts",
             "June 30",
+            "Palace of Fine Arts",
+            "Kevin O 'Brien",
+            "July 1-2 ,",
             "San Francisco"
         ],
         "relations_list": [
@@ -34,8 +34,8 @@
         "sentence": "In the field of mechanics , Wang Ziqiang at the Institute of Mechanics has made considerable headway in the area of elastoplastic crack mechanics .",
         "audio_path": "./data/CoNLL04/audio/dev-2.wav",
         "entities_list": [
-            "Institute of Mechanics",
-            "Wang Ziqiang"
+            "Wang Ziqiang",
+            "Institute of Mechanics"
         ],
         "relations_list": [
             "Work_For"
@@ -48,8 +48,8 @@
         "sentence": "Sun Hung Kai Properties , a Hong Kong construction firm with a 27 percent share ;",
         "audio_path": "./data/CoNLL04/audio/dev-3.wav",
         "entities_list": [
-            "Hong Kong",
             "Sun Hung Kai Properties",
+            "Hong Kong",
             "27 percent"
         ],
         "relations_list": [
@@ -63,14 +63,14 @@
         "sentence": "Marie Magdefrau Ferraro , 50 , of Bethany , Conn. , was shot to death Thursday when two bandits armed with assault rifles emerged from nearby bushes and began firing at a van carrying a Connecticut Audubon Society wildlife wild tour group .",
         "audio_path": "./data/CoNLL04/audio/dev-4.wav",
         "entities_list": [
-            "Marie Magdefrau Ferraro",
-            "Bethany",
             "Connecticut Audubon Society wildlife",
-            "Conn."
+            "Conn.",
+            "Bethany",
+            "Marie Magdefrau Ferraro"
         ],
         "relations_list": [
-            "Live_In",
-            "Located_In"
+            "Located_In",
+            "Live_In"
         ],
         "triplets_list": [
             "Marie Magdefrau Ferraro##Live_In##Bethany",
@@ -96,11 +96,11 @@
         "sentence": "Lightning ignited a firestorm that charred 10 , 000 acres in central Idaho , including much of the small resort town of Lowman , about 70 miles northeast of Boise.",
         "audio_path": "./data/CoNLL04/audio/dev-6.wav",
         "entities_list": [
-            "Idaho",
-            "70 miles",
-            "Boise.",
             "Lowman",
-            "10 , 000 acres"
+            "Idaho",
+            "10 , 000 acres",
+            "70 miles",
+            "Boise."
         ],
         "relations_list": [
             "Located_In"
@@ -128,8 +128,8 @@
         "audio_path": "./data/CoNLL04/audio/dev-8.wav",
         "entities_list": [
             "Aiken",
-            "Savannah River Plant",
-            "S.C."
+            "S.C.",
+            "Savannah River Plant"
         ],
         "relations_list": [
             "Located_In"
@@ -144,13 +144,13 @@
         "sentence": "Composer Thomas is a native of Chisholm , Minn .",
         "audio_path": "./data/CoNLL04/audio/dev-9.wav",
         "entities_list": [
-            "Chisholm",
             "Thomas",
-            "Minn ."
+            "Minn .",
+            "Chisholm"
         ],
         "relations_list": [
-            "Live_In",
-            "Located_In"
+            "Located_In",
+            "Live_In"
         ],
         "triplets_list": [
             "Thomas##Live_In##Chisholm",
@@ -162,9 +162,9 @@
         "sentence": "Illinois Gov. James Thompson signed legislation last month scrapping Chicago 's central school board next July , to be replaced by parent-run councils empowered to set budgets and hire and fire principals .",
         "audio_path": "./data/CoNLL04/audio/dev-10.wav",
         "entities_list": [
-            "Chicago",
             "James Thompson",
-            "Illinois"
+            "Illinois",
+            "Chicago"
         ],
         "relations_list": [
             "Live_In"
@@ -177,8 +177,8 @@
         "sentence": "During the 10-hour rescue , diver Brian Michaud of Millinocket hooked the men to harnesses , and rescuers dragged them to the surface with winches .",
         "audio_path": "./data/CoNLL04/audio/dev-11.wav",
         "entities_list": [
-            "Millinocket",
-            "Brian Michaud"
+            "Brian Michaud",
+            "Millinocket"
         ],
         "relations_list": [
             "Live_In"
@@ -234,11 +234,11 @@
         "sentence": "Kovacevic , a Serb , has come under fire from Serbian politicians and the republic 's press since the U.S. Congress last month passed two resolutions claiming there were human rights violations in the strife-torn southern province of Kosovo.",
         "audio_path": "./data/CoNLL04/audio/dev-15.wav",
         "entities_list": [
-            "Serb",
-            "Congress",
-            "U.S.",
             "Kosovo.",
-            "Kovacevic"
+            "Congress",
+            "Kovacevic",
+            "Serb",
+            "U.S."
         ],
         "relations_list": [
             "OrgBased_In"
@@ -265,8 +265,8 @@
         "sentence": "On this date : In 1833 , Benjamin Harrison , the 23rd President of the United States , was born in North Bend , Ohio .",
         "audio_path": "./data/CoNLL04/audio/dev-17.wav",
         "entities_list": [
-            "United States",
             "Benjamin Harrison",
+            "United States",
             "North Bend , Ohio"
         ],
         "relations_list": [
@@ -296,9 +296,9 @@
         "sentence": "EDITOR 'S NOTE : Walter R. Mears , vice and columnist for The Associated Press , has reported on Washington and national politics for more than 25 years .",
         "audio_path": "./data/CoNLL04/audio/dev-19.wav",
         "entities_list": [
+            "The Associated Press",
             "Washington",
-            "Walter R. Mears",
-            "The Associated Press"
+            "Walter R. Mears"
         ],
         "relations_list": [
             "Work_For"
@@ -311,9 +311,9 @@
         "sentence": "` ` The Germans just tunneled like rabbits , ' ' said Gerald Przenislawski , who operates La Valette Underground Military Museum.",
         "audio_path": "./data/CoNLL04/audio/dev-20.wav",
         "entities_list": [
-            "Germans",
             "La Valette Underground Military Museum.",
-            "Gerald Przenislawski"
+            "Gerald Przenislawski",
+            "Germans"
         ],
         "relations_list": [
             "Work_For"
@@ -340,13 +340,13 @@
         "sentence": "Photo , Dueling Over a GunIt is a scene seared into the memories of Americans old enough to have watched it that November day in 1963 : Jack Ruby firing his .38-caliber Colt Cobra , above , at Lee Harvey Oswald , the man who had assassinated President John F. Kennedy two days earlier.",
         "audio_path": "./data/CoNLL04/audio/dev-22.wav",
         "entities_list": [
-            "Jack Ruby",
+            "November",
             "GunIt",
-            "Dueling",
+            "Jack Ruby",
             "Lee Harvey Oswald",
             "Photo",
+            "Dueling",
             "President John F. Kennedy",
-            "November",
             "Colt Cobra"
         ],
         "relations_list": [
@@ -360,11 +360,11 @@
         "sentence": "In a statement at the airport before his departure , Cetin said that Turkey welcomed this step taken by Bosnians and Croats and hoped that real peace comes to Bosnia-Herzegovina when Serbs join this process too .",
         "audio_path": "./data/CoNLL04/audio/dev-23.wav",
         "entities_list": [
-            "Serbs",
-            "Bosnia-Herzegovina",
             "Cetin",
             "Turkey",
+            "Bosnia-Herzegovina",
             "Bosnians",
+            "Serbs",
             "Croats"
         ],
         "relations_list": [
@@ -392,10 +392,10 @@
         "sentence": "Ms. Carpenter 's brother , retired National Football League placekicker Mark Moseley , was in the courtroom Wednesday and told reporters afterward , ` ` It 's been nine years of hell for myself and my family. ' '",
         "audio_path": "./data/CoNLL04/audio/dev-25.wav",
         "entities_list": [
-            "nine years",
+            "National Football League",
             "Ms. Carpenter",
-            "Mark Moseley",
-            "National Football League"
+            "nine years",
+            "Mark Moseley"
         ],
         "relations_list": [
             "Work_For"
@@ -408,9 +408,9 @@
         "sentence": "Hernandez Galicia 's allegedly corrupt Mexican Oil Workers Union controls more than half the lucrative drilling contracts issued by the state oil monopoly , Pemex .",
         "audio_path": "./data/CoNLL04/audio/dev-26.wav",
         "entities_list": [
-            "Mexican Oil Workers Union",
             "Pemex",
-            "Hernandez Galicia"
+            "Hernandez Galicia",
+            "Mexican Oil Workers Union"
         ],
         "relations_list": [
             "Work_For"
@@ -423,13 +423,13 @@
         "sentence": "You 'll pass through Rolling Fork , where Muddy Waters was born , close to Greenville , home of Nelson Street 's funky strip of blues clubs , and into Clarksdale , at the intersection of Highway 61 and another major road in blues lore , U.S. Highway 49. ;",
         "audio_path": "./data/CoNLL04/audio/dev-27.wav",
         "entities_list": [
-            "Greenville",
             "Highway",
-            "Nelson Street",
-            "Muddy Waters",
-            "U.S. Highway",
             "Rolling Fork",
-            "Clarksdale"
+            "Nelson Street",
+            "Clarksdale",
+            "Greenville",
+            "U.S. Highway",
+            "Muddy Waters"
         ],
         "relations_list": [
             "Live_In"
@@ -442,8 +442,8 @@
         "sentence": "` ` The Challenger accident marked a major change in the U.S. outlook and policies with respect to the flight of other than NASA astronauts , ' ' the National Aeronautics and Space Administration said in a policy statement .",
         "audio_path": "./data/CoNLL04/audio/dev-28.wav",
         "entities_list": [
-            "U.S.",
             "NASA",
+            "U.S.",
             "National Aeronautics and Space Administration"
         ],
         "relations_list": [
@@ -458,8 +458,8 @@
         "sentence": "` ` It 's not going to make you a whole bunch of money , but that 's not why we 're doing it , ' ' said Phil Fuhrer , vice of Gannett New Media. 1-900-WEATHER offers callers the current weather and a three-day forecast , plus skiing and highway conditions in the winter and coastal reports during the summer.",
         "audio_path": "./data/CoNLL04/audio/dev-29.wav",
         "entities_list": [
-            "Gannett New Media.",
-            "Phil Fuhrer"
+            "Phil Fuhrer",
+            "Gannett New Media."
         ],
         "relations_list": [
             "Work_For"
@@ -472,10 +472,10 @@
         "sentence": "PA2904034294 Guatemala City Teleonce Television in Spanish 0400 GMT 26 Apr 94",
         "audio_path": "./data/CoNLL04/audio/dev-30.wav",
         "entities_list": [
-            "26 Apr 94",
+            "Guatemala City",
             "0400 GMT",
-            "Teleonce Television",
-            "Guatemala City"
+            "26 Apr 94",
+            "Teleonce Television"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -489,12 +489,12 @@
         "audio_path": "./data/CoNLL04/audio/dev-31.wav",
         "entities_list": [
             "DAYTON",
-            "Ohio",
-            "AP"
+            "AP",
+            "Ohio"
         ],
         "relations_list": [
-            "OrgBased_In",
-            "Located_In"
+            "Located_In",
+            "OrgBased_In"
         ],
         "triplets_list": [
             "DAYTON##Located_In##Ohio",
@@ -506,9 +506,9 @@
         "sentence": "In 1865 , four people were hanged in Washington , D.C. , after being convicted of conspiring with John Wilkes Booth in the assassination of President Lincoln .",
         "audio_path": "./data/CoNLL04/audio/dev-32.wav",
         "entities_list": [
+            "John Wilkes Booth",
             "Washington , D.C.",
-            "President Lincoln",
-            "John Wilkes Booth"
+            "President Lincoln"
         ],
         "relations_list": [
             "Kill"
@@ -522,8 +522,8 @@
         "audio_path": "./data/CoNLL04/audio/dev-33.wav",
         "entities_list": [
             "San Gabriel River Channel",
-            "Calif.",
-            "Azusa"
+            "Azusa",
+            "Calif."
         ],
         "relations_list": [
             "Located_In"
@@ -552,16 +552,16 @@
         "sentence": "Derwinski , a Republican from Chicago who served 24 years in Congress , publicly denied 1978 allegations that he leaked the information and refused to testify in the matter before a federal grand jury and the House Ethics Committee .",
         "audio_path": "./data/CoNLL04/audio/dev-35.wav",
         "entities_list": [
-            "Chicago",
+            "Congress",
             "1978",
             "24 years",
-            "Congress",
             "Derwinski",
-            "House Ethics Committee"
+            "House Ethics Committee",
+            "Chicago"
         ],
         "relations_list": [
-            "Work_For",
-            "Live_In"
+            "Live_In",
+            "Work_For"
         ],
         "triplets_list": [
             "Derwinski##Live_In##Chicago",
@@ -573,12 +573,12 @@
         "audio_path": "./data/CoNLL04/audio/dev-36.wav",
         "entities_list": [
             "BANGKOK",
-            "AP",
-            "Thailand"
+            "Thailand",
+            "AP"
         ],
         "relations_list": [
-            "OrgBased_In",
-            "Located_In"
+            "Located_In",
+            "OrgBased_In"
         ],
         "triplets_list": [
             "BANGKOK##Located_In##Thailand",
@@ -590,19 +590,19 @@
         "sentence": "( Text ) Police Major Pramot Pansakun , the commander of the Region 2 Border Patrol Police ( BPP ) , Khon Kaen , and Thai and American narcotics suppression officials accompanied by reporters , spent more than 2 hours climbing a high mountain to destroy a Hmong poppy field located along the border between Dan Sai District in Loei Province , Nakhon Thai District in Phitsanulok Province , and Lomsak District in Phetchabun Province .",
         "audio_path": "./data/CoNLL04/audio/dev-37.wav",
         "entities_list": [
-            "Khon Kaen",
             "Region 2 Border Patrol Police",
             "Phitsanulok Province",
-            "Phetchabun Province",
-            "Loei Province",
-            "Nakhon Thai District",
-            "Dan Sai District",
             "Lomsak District",
-            "Pramot Pansakun"
+            "Dan Sai District",
+            "Khon Kaen",
+            "Pramot Pansakun",
+            "Nakhon Thai District",
+            "Phetchabun Province",
+            "Loei Province"
         ],
         "relations_list": [
-            "Work_For",
-            "Located_In"
+            "Located_In",
+            "Work_For"
         ],
         "triplets_list": [
             "Pramot Pansakun##Work_For##Region 2 Border Patrol Police",
@@ -615,16 +615,16 @@
         "sentence": "Further buying was linked to rumors that the Chilean copper company Codelco was considering shutting down its smelter at Chuquicamata , the world 's largest copper mine , due to persistent mechanical problems , said Fred Demler , metals economist with Drexel Burnham Lambert Inc. in New York .",
         "audio_path": "./data/CoNLL04/audio/dev-38.wav",
         "entities_list": [
-            "Chuquicamata",
-            "Codelco",
             "Drexel Burnham Lambert Inc.",
+            "Fred Demler",
             "New York",
-            "Fred Demler"
+            "Codelco",
+            "Chuquicamata"
         ],
         "relations_list": [
-            "Work_For",
+            "Live_In",
             "OrgBased_In",
-            "Live_In"
+            "Work_For"
         ],
         "triplets_list": [
             "Fred Demler##Work_For##Drexel Burnham Lambert Inc.",
@@ -636,10 +636,10 @@
         "sentence": "An urgent call for international help to avert food shortages in Poland went out both from last month 's Western economic summit in Paris and from Monday 's meeting in Brussels of 24 concerned nations chaired by the European Community Commission.",
         "audio_path": "./data/CoNLL04/audio/dev-39.wav",
         "entities_list": [
-            "Poland",
-            "Brussels",
             "European Community Commission.",
-            "Paris"
+            "Brussels",
+            "Paris",
+            "Poland"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -652,9 +652,9 @@
         "sentence": "Cheek , 53 , is a former chief and charge in Addis Ababa , Ethiopia.",
         "audio_path": "./data/CoNLL04/audio/dev-40.wav",
         "entities_list": [
-            "Ethiopia.",
+            "Cheek",
             "Addis Ababa",
-            "Cheek"
+            "Ethiopia."
         ],
         "relations_list": [
             "Located_In"
@@ -667,9 +667,9 @@
         "sentence": "In 1881 , President James A. Garfield was shot by Charles J. Guiteau , a disappointed office-seeker , at the Washington railroad station .",
         "audio_path": "./data/CoNLL04/audio/dev-41.wav",
         "entities_list": [
+            "Charles J. Guiteau",
             "Washington",
-            "President James A. Garfield",
-            "Charles J. Guiteau"
+            "President James A. Garfield"
         ],
         "relations_list": [
             "Kill"
@@ -682,9 +682,9 @@
         "sentence": "Middle-class Argentines , among the most affluent in Latin America at one time , are so strapped now that they are selling off heirlooms that had been in their families since the days when beef and grain made Argentina one of the world 's wealthiest nations.",
         "audio_path": "./data/CoNLL04/audio/dev-42.wav",
         "entities_list": [
-            "Argentines",
             "Latin America",
-            "Argentina"
+            "Argentina",
+            "Argentines"
         ],
         "relations_list": [
             "Located_In"
@@ -697,8 +697,8 @@
         "sentence": "` ` I don 't think there are any good answers why , ' ' said Virginia Towle of Wallingford , a family friend.",
         "audio_path": "./data/CoNLL04/audio/dev-43.wav",
         "entities_list": [
-            "Wallingford",
-            "Virginia Towle"
+            "Virginia Towle",
+            "Wallingford"
         ],
         "relations_list": [
             "Live_In"
@@ -711,11 +711,11 @@
         "sentence": "The meeting will be held at the request of the Soviet Union , which also plans direct talks with resistance leader Prince Norodom Sihanouk , said Sihanouk 's son and representative in Thailand , Prince Norodom Ranariddh .",
         "audio_path": "./data/CoNLL04/audio/dev-44.wav",
         "entities_list": [
-            "Soviet Union",
-            "Prince Norodom Ranariddh",
             "Thailand",
             "Prince Norodom Sihanouk",
-            "Sihanouk"
+            "Sihanouk",
+            "Prince Norodom Ranariddh",
+            "Soviet Union"
         ],
         "relations_list": [
             "Live_In"
@@ -728,9 +728,9 @@
         "sentence": "Hundreds of children and adults sporting cowboy boots and hats turned out Wednesday to watch as Winterset 's busiest street was named for John Wayne , the community 's most famous native son .",
         "audio_path": "./data/CoNLL04/audio/dev-45.wav",
         "entities_list": [
-            "Winterset",
             "John Wayne",
-            "Wednesday"
+            "Wednesday",
+            "Winterset"
         ],
         "relations_list": [
             "Live_In"
@@ -743,8 +743,8 @@
         "sentence": "River North 's nouvelle sensibilities also might be offended by the Ranch 's menu , which features items such as the ` ` Jesse James Steak ( A Steal ! ) , ' ' and the occasional ornery patron .",
         "audio_path": "./data/CoNLL04/audio/dev-46.wav",
         "entities_list": [
-            "River North",
-            "Ranch"
+            "Ranch",
+            "River North"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -757,8 +757,8 @@
         "sentence": "Police Find No Signs of Radiation Leak AU0202111694 Paris AFP in English 0107 GMT 2 Feb 94",
         "audio_path": "./data/CoNLL04/audio/dev-47.wav",
         "entities_list": [
-            "2 Feb 94",
             "0107 GMT",
+            "2 Feb 94",
             "AFP",
             "Paris"
         ],
@@ -773,11 +773,11 @@
         "sentence": "It was filmed on location in Tokyo and Kyoto and is a co-production of Children 's Television Worship and NHK network in Japan .",
         "audio_path": "./data/CoNLL04/audio/dev-48.wav",
         "entities_list": [
-            "Kyoto",
-            "Children 's Television Worship",
-            "NHK network",
             "Tokyo",
-            "Japan"
+            "Japan",
+            "NHK network",
+            "Children 's Television Worship",
+            "Kyoto"
         ],
         "relations_list": [
             "Located_In"
@@ -791,11 +791,11 @@
         "sentence": "The self-propelled rig Avco 5 with 14 people aboard was headed to shore early Monday when it capsized about 20 miles off the Louisiana coast , near Morgan City , Chevron spokesman Jonathan Lifa said.",
         "audio_path": "./data/CoNLL04/audio/dev-49.wav",
         "entities_list": [
-            "Louisiana",
-            "Jonathan Lifa",
-            "20 miles",
             "Chevron",
-            "Morgan City"
+            "Jonathan Lifa",
+            "Morgan City",
+            "20 miles",
+            "Louisiana"
         ],
         "relations_list": [
             "Work_For"
@@ -808,11 +808,11 @@
         "sentence": "Sen. Jake Garn , R-Utah , flew on the shuttle in April 1985 and Rep. Bill Nelson , D-Fla. , was aboard in January 1986 , at the invitation of NASA 's administrator .",
         "audio_path": "./data/CoNLL04/audio/dev-50.wav",
         "entities_list": [
-            "1986",
-            "1985",
-            "Jake Garn",
+            "Bill Nelson",
             "NASA",
-            "Bill Nelson"
+            "1985",
+            "1986",
+            "Jake Garn"
         ],
         "relations_list": [
             "Work_For"
@@ -826,9 +826,9 @@
         "sentence": "Ten Soviet volunteers and their American counterparts plan to spend August in Washington building homes for the poor as a return favor for help in earthquake-devastated Soviet Armenia.",
         "audio_path": "./data/CoNLL04/audio/dev-51.wav",
         "entities_list": [
-            "Soviet",
             "Washington",
-            "Armenia."
+            "Armenia.",
+            "Soviet"
         ],
         "relations_list": [
             "Located_In"
@@ -841,14 +841,14 @@
         "sentence": "Evaluating Juppe 's visit , Cetin said that the French Government was not displaying a disturbing stand toward Turkey and was very careful in not intervening in Turkey 's internal affairs .",
         "audio_path": "./data/CoNLL04/audio/dev-52.wav",
         "entities_list": [
-            "Cetin",
+            "Juppe",
             "Turkey",
             "French Government",
-            "Juppe"
+            "Cetin"
         ],
         "relations_list": [
-            "Work_For",
-            "Live_In"
+            "Live_In",
+            "Work_For"
         ],
         "triplets_list": [
             "Juppe##Work_For##French Government",
@@ -860,13 +860,13 @@
         "sentence": "Jose Vicente Maldonado , the Ecuadoran minister of industry , commerce , and integration , said that the foreign of the Andean Group ( Colombia , Bolivia , Ecuador , Peru , and Venezuela ) , will study a new date for the summit .",
         "audio_path": "./data/CoNLL04/audio/dev-53.wav",
         "entities_list": [
-            "Ecuador",
             "Venezuela",
-            "Andean Group",
-            "Jose Vicente Maldonado",
-            "Colombia",
             "Peru",
-            "Bolivia"
+            "Bolivia",
+            "Ecuador",
+            "Andean Group",
+            "Colombia",
+            "Jose Vicente Maldonado"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -898,16 +898,16 @@
         "sentence": "( Text ) Sofia , February 15 ( BTA ) -- Today the two main political forces in Bulgaria , the Bulgarian Socialist ( formerly Communist ) Party ( BSP ) and the Union of Democratic Forces ( SDS ) announced their stand on the possible airstrikes in Bosnia five days before the expiry of NATO 's ultimatum .",
         "audio_path": "./data/CoNLL04/audio/dev-55.wav",
         "entities_list": [
-            "Bulgaria",
-            "NATO",
-            "Bosnia",
             "Bulgarian Socialist ( formerly Communist ) Party",
-            "Union of Democratic Forces",
             "BTA",
-            "February 15",
+            "SDS",
+            "Bulgaria",
             "BSP",
+            "Union of Democratic Forces",
+            "Bosnia",
             "Sofia",
-            "SDS"
+            "NATO",
+            "February 15"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -924,12 +924,12 @@
         "sentence": "Starr , who served as counselor to Attorney William French Smith from 1981 prior to taking the bench in 1983 , had been mentioned as a possible Supreme Court nominee after his former colleague on the District of Columbia circuit , Robert Bork , failed to win Senate confirmation in 1987 .",
         "audio_path": "./data/CoNLL04/audio/dev-56.wav",
         "entities_list": [
-            "Robert Bork",
-            "Supreme Court",
-            "William French Smith",
-            "Senate",
             "Starr",
-            "District of Columbia"
+            "William French Smith",
+            "Supreme Court",
+            "District of Columbia",
+            "Robert Bork",
+            "Senate"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -946,8 +946,8 @@
             "Africa.",
             "International Development",
             "Madagascar",
-            "United States Agency",
-            "Indian Ocean"
+            "Indian Ocean",
+            "United States Agency"
         ],
         "relations_list": [
             "Located_In"
@@ -960,10 +960,10 @@
         "sentence": "JN0704183294 Paris Radio Monte Carlo in Arabic 1700 GMT 7 Apr 94",
         "audio_path": "./data/CoNLL04/audio/dev-58.wav",
         "entities_list": [
+            "1700 GMT",
             "7 Apr 94",
-            "Radio Monte Carlo",
             "Paris",
-            "1700 GMT"
+            "Radio Monte Carlo"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -978,8 +978,8 @@
         "entities_list": [
             "Francisco Pizarro",
             "Atahualpa",
-            "Incan King",
-            "Peru"
+            "Peru",
+            "Incan King"
         ],
         "relations_list": [
             "Kill"
@@ -1006,12 +1006,12 @@
         "sentence": "Minox has not shown a profit since 1981 , and on April 1 , 1988 , Robert C. Corduwener , a Netherlands businessman bought a 51 percent share of the company to take control from the Rinn family .",
         "audio_path": "./data/CoNLL04/audio/dev-61.wav",
         "entities_list": [
-            "1981",
-            "Robert C. Corduwener",
-            "51 percent",
             "Netherlands",
-            "Minox",
-            "April 1 , 1988"
+            "51 percent",
+            "April 1 , 1988",
+            "Robert C. Corduwener",
+            "1981",
+            "Minox"
         ],
         "relations_list": [
             "Live_In"
@@ -1024,12 +1024,12 @@
         "sentence": "Volcanoes in Nicaragua and Indonesia , deforestation in Brazil and Madagascar , the Sahara desert in Africa and global beach erosion are among the subjects to be photographed .",
         "audio_path": "./data/CoNLL04/audio/dev-62.wav",
         "entities_list": [
-            "Sahara desert",
             "Madagascar",
+            "Nicaragua",
+            "Sahara desert",
             "Indonesia",
-            "Brazil",
             "Africa",
-            "Nicaragua"
+            "Brazil"
         ],
         "relations_list": [
             "Located_In"
@@ -1042,8 +1042,8 @@
         "sentence": "` ` This is really hurting Heuchelheim , ' ' the town 's mayor Willi Marx told The Associated Press in an interview at his office earlier this month .",
         "audio_path": "./data/CoNLL04/audio/dev-63.wav",
         "entities_list": [
-            "Associated Press",
             "Willi Marx",
+            "Associated Press",
             "Heuchelheim"
         ],
         "relations_list": [
@@ -1072,12 +1072,12 @@
         "sentence": "The term ` ` 30 Seconds Over Tokyo ' ' was the title of a popular movie about the raid. _Anzio _ The Anzio beachhead , 33 miles south of Rome , saw some of the bloodiest fighting of World War II and accounted for many of the 10 , 000 U.S. battle deaths in Italy the first half of 1944 .",
         "audio_path": "./data/CoNLL04/audio/dev-65.wav",
         "entities_list": [
-            "Rome",
-            "World War II",
             "Tokyo",
+            "Rome",
+            "Anzio",
             "Italy",
             "33 miles",
-            "Anzio"
+            "World War II"
         ],
         "relations_list": [
             "Located_In"
@@ -1090,9 +1090,9 @@
         "sentence": "Anna Sandhu Ray , who 10 years ago Thursday wed the man convicted of killing the Rev. Martin Luther King Jr. , said on her anniversary that she plans to divorce James Earl Ray .",
         "audio_path": "./data/CoNLL04/audio/dev-66.wav",
         "entities_list": [
-            "Thursday",
-            "Anna Sandhu Ray",
             "Rev. Martin Luther King Jr.",
+            "Anna Sandhu Ray",
+            "Thursday",
             "James Earl Ray"
         ],
         "relations_list": [
@@ -1107,9 +1107,9 @@
         "audio_path": "./data/CoNLL04/audio/dev-67.wav",
         "entities_list": [
             "Goddess of Democracy",
-            "Beijing",
+            "Tiananmen Square",
             "May 30.",
-            "Tiananmen Square"
+            "Beijing"
         ],
         "relations_list": [
             "Located_In"
@@ -1122,18 +1122,18 @@
         "sentence": "( Text ) Ulaanbaatar , 29 Apr ( XINHUA ) -- China 's Premier Li Peng and Mongolian Prime P. Jasray signed the \" Treaty of Friendly Cooperation Relations Between the People 's Republic of China and Mongolia \" at the State Palace in the afternoon of 29 April .",
         "audio_path": "./data/CoNLL04/audio/dev-68.wav",
         "entities_list": [
-            "China",
-            "29 April",
             "29 Apr",
+            "XINHUA",
+            "People 's Republic of China",
             "State Palace",
             "P. Jasray",
-            "People 's Republic of China",
-            "XINHUA",
+            "29 April",
+            "China",
             "Li Peng"
         ],
         "relations_list": [
-            "OrgBased_In",
-            "Live_In"
+            "Live_In",
+            "OrgBased_In"
         ],
         "triplets_list": [
             "XINHUA##OrgBased_In##China",
@@ -1162,8 +1162,8 @@
         "audio_path": "./data/CoNLL04/audio/dev-70.wav",
         "entities_list": [
             "Bugesera",
-            "Rwanda",
-            "Rwandan Patriotic Front"
+            "Rwandan Patriotic Front",
+            "Rwanda"
         ],
         "relations_list": [
             "Located_In"
@@ -1176,14 +1176,14 @@
         "sentence": "One of Warner 's lawyers , Andrew Hall of Miami , Fla. , confirmed Tuesday that Warner is trying to settle the case.",
         "audio_path": "./data/CoNLL04/audio/dev-71.wav",
         "entities_list": [
-            "Fla.",
             "Miami",
-            "Warner",
-            "Andrew Hall"
+            "Fla.",
+            "Andrew Hall",
+            "Warner"
         ],
         "relations_list": [
-            "Live_In",
-            "Located_In"
+            "Located_In",
+            "Live_In"
         ],
         "triplets_list": [
             "Andrew Hall##Live_In##Miami",
@@ -1195,8 +1195,8 @@
         "sentence": "GRAND RAPIDS , Mich .",
         "audio_path": "./data/CoNLL04/audio/dev-72.wav",
         "entities_list": [
-            "Mich .",
-            "GRAND RAPIDS"
+            "GRAND RAPIDS",
+            "Mich ."
         ],
         "relations_list": [
             "Located_In"
@@ -1238,9 +1238,9 @@
         "audio_path": "./data/CoNLL04/audio/dev-75.wav",
         "entities_list": [
             "London",
-            "19 Jan 94",
             "1700 GMT",
-            "Kanal-6 Television"
+            "Kanal-6 Television",
+            "19 Jan 94"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -1255,9 +1255,9 @@
         "entities_list": [
             "Union",
             "Lincoln",
-            "John Wilkes Booth",
+            "Garrett",
             "April",
-            "Garrett"
+            "John Wilkes Booth"
         ],
         "relations_list": [
             "Kill"
@@ -1271,8 +1271,8 @@
         "audio_path": "./data/CoNLL04/audio/dev-77.wav",
         "entities_list": [
             "BANGKOK",
-            "AP",
-            "Thailand"
+            "Thailand",
+            "AP"
         ],
         "relations_list": [
             "Located_In"
@@ -1300,8 +1300,8 @@
         "sentence": "The Santa Ana winds _ also called ` ` devil winds ' ' _ are spun off by high pressure over the interior of the country , picking up speed as they move from Southern California 's deserts through mountain passes and roar down on adjacent communities .",
         "audio_path": "./data/CoNLL04/audio/dev-79.wav",
         "entities_list": [
-            "Santa Ana",
-            "Southern California"
+            "Southern California",
+            "Santa Ana"
         ],
         "relations_list": [
             "Located_In"
@@ -1314,8 +1314,8 @@
         "sentence": "FL2706231194 Havana Radio Reloj Network in Spanish 1402 GMT 27 Jun 94",
         "audio_path": "./data/CoNLL04/audio/dev-80.wav",
         "entities_list": [
-            "Radio Reloj Network",
             "1402 GMT",
+            "Radio Reloj Network",
             "Havana",
             "27 Jun 94"
         ],
@@ -1331,8 +1331,8 @@
         "audio_path": "./data/CoNLL04/audio/dev-81.wav",
         "entities_list": [
             "John A. Georges",
-            "1988",
-            "International Paper"
+            "International Paper",
+            "1988"
         ],
         "relations_list": [
             "Work_For"
@@ -1345,9 +1345,9 @@
         "sentence": "The FA-18 Hornet was on a mission to Pinecastle Electronic Warfare Range in the Ocala National Forest when the bomb tumbled free at 1 : 50 p.m .",
         "audio_path": "./data/CoNLL04/audio/dev-82.wav",
         "entities_list": [
-            "Ocala National Forest",
             "Pinecastle Electronic Warfare Range",
-            "1 : 50 p.m ."
+            "1 : 50 p.m .",
+            "Ocala National Forest"
         ],
         "relations_list": [
             "Located_In"
@@ -1360,8 +1360,8 @@
         "sentence": "EAST LANSING , Mich.",
         "audio_path": "./data/CoNLL04/audio/dev-83.wav",
         "entities_list": [
-            "EAST LANSING",
-            "Mich."
+            "Mich.",
+            "EAST LANSING"
         ],
         "relations_list": [
             "Located_In"
@@ -1374,10 +1374,10 @@
         "sentence": "Born in Athens , Psacharopoulos came to the United States at age 17 to enter Oberlin College , where he studied art history .",
         "audio_path": "./data/CoNLL04/audio/dev-84.wav",
         "entities_list": [
-            "Oberlin College",
             "Psacharopoulos",
             "Athens",
-            "United States"
+            "United States",
+            "Oberlin College"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -1390,10 +1390,10 @@
         "sentence": "Two days later , Perry operated on Kennedy 's assassin , Lee Harvey Oswald , who had just been shot by Jack Ruby .",
         "audio_path": "./data/CoNLL04/audio/dev-85.wav",
         "entities_list": [
-            "Perry",
             "Kennedy",
             "Jack Ruby",
-            "Lee Harvey Oswald"
+            "Lee Harvey Oswald",
+            "Perry"
         ],
         "relations_list": [
             "Kill"
@@ -1407,10 +1407,10 @@
         "sentence": "The prime was accompanied by his wife , Datuk Sri Datin Paduka Dr. Siti Hasmah and the deputy secretary of the Foreign Ministry , Datuk Abdul Halim Ali , during his brief visit to South Africa .",
         "audio_path": "./data/CoNLL04/audio/dev-86.wav",
         "entities_list": [
-            "South Africa",
+            "Datuk Sri Datin Paduka Dr. Siti Hasmah",
             "Datuk Abdul Halim Ali",
-            "Foreign Ministry",
-            "Datuk Sri Datin Paduka Dr. Siti Hasmah"
+            "South Africa",
+            "Foreign Ministry"
         ],
         "relations_list": [
             "Work_For"
@@ -1423,8 +1423,8 @@
         "sentence": "The federal appeals court previously overturned a key provision of Arizona 's death penalty statute in the case of John Harvey Adamson , convicted of murdering reporter Don Bolles .",
         "audio_path": "./data/CoNLL04/audio/dev-87.wav",
         "entities_list": [
-            "John Harvey Adamson",
             "Don Bolles",
+            "John Harvey Adamson",
             "Arizona"
         ],
         "relations_list": [
@@ -1438,14 +1438,14 @@
         "sentence": "The movie 's script remains a secret , but Stone has said Kevin Costner will star as New Orleans prosecutor Jim Garrison , who said that Kennedy was the victim of an FBI and CIA conspiracy and that Lee Harvey Oswald , identified by a presidential commission as the lone assassin , was set up to take the blame. ;",
         "audio_path": "./data/CoNLL04/audio/dev-88.wav",
         "entities_list": [
-            "Stone",
-            "Lee Harvey Oswald",
             "CIA",
             "Kennedy",
-            "Kevin Costner",
             "Jim Garrison",
-            "FBI",
-            "New Orleans"
+            "Kevin Costner",
+            "Lee Harvey Oswald",
+            "Stone",
+            "New Orleans",
+            "FBI"
         ],
         "relations_list": [
             "Kill"
@@ -1458,8 +1458,8 @@
         "sentence": "Becton Dickinson sells needle containers to doctors and hospitals but may develop a container for home use , said Linda Schmitt , an assistant product manager.",
         "audio_path": "./data/CoNLL04/audio/dev-89.wav",
         "entities_list": [
-            "Linda Schmitt",
-            "Becton Dickinson"
+            "Becton Dickinson",
+            "Linda Schmitt"
         ],
         "relations_list": [
             "Work_For"
@@ -1472,8 +1472,8 @@
         "sentence": "The police files on Kennedy 's shooting could shed new light on persistent questions about whether Sirhan Bishara Sirhan was the only gunman in the shooting .",
         "audio_path": "./data/CoNLL04/audio/dev-90.wav",
         "entities_list": [
-            "Sirhan Bishara Sirhan",
-            "Kennedy"
+            "Kennedy",
+            "Sirhan Bishara Sirhan"
         ],
         "relations_list": [
             "Kill"
@@ -1486,9 +1486,9 @@
         "sentence": "NC1404123794 Cairo AL-AHALI in Arabic 6 Apr 94 p 6",
         "audio_path": "./data/CoNLL04/audio/dev-91.wav",
         "entities_list": [
+            "6 Apr 94",
             "Cairo",
-            "AL-AHALI",
-            "6 Apr 94"
+            "AL-AHALI"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -1502,8 +1502,8 @@
         "audio_path": "./data/CoNLL04/audio/dev-92.wav",
         "entities_list": [
             "Charles Hardin Holley",
-            "Lubbock , Texas",
-            "Buddy Holly"
+            "Buddy Holly",
+            "Lubbock , Texas"
         ],
         "relations_list": [
             "Live_In"
@@ -1517,12 +1517,12 @@
         "sentence": "Belli 's clients have included Jack Ruby , who killed John F. Kennedy assassin Lee Harvey Oswald , and Jim and Tammy Bakker .",
         "audio_path": "./data/CoNLL04/audio/dev-93.wav",
         "entities_list": [
-            "Jack Ruby",
             "Lee Harvey Oswald",
+            "Jack Ruby",
             "Belli",
+            "Tammy Bakker",
             "Jim",
-            "John F. Kennedy",
-            "Tammy Bakker"
+            "John F. Kennedy"
         ],
         "relations_list": [
             "Kill"
@@ -1536,15 +1536,15 @@
         "sentence": "Bosnia 's capital , Sarajevo , is best-known as the site of the assassination in 1914 of Austrian Archduke Franz Ferdinand by young Bosnian nationalist Gavrilo Princip , which was the spark that ignited World War I. No single party appeared likely to win a clear majority in Bosnia 's 240-seat bicameral parliament .",
         "audio_path": "./data/CoNLL04/audio/dev-94.wav",
         "entities_list": [
-            "Gavrilo Princip",
             "Sarajevo",
             "Bosnia",
+            "Austrian Archduke Franz Ferdinand",
             "World War",
-            "Austrian Archduke Franz Ferdinand"
+            "Gavrilo Princip"
         ],
         "relations_list": [
-            "Kill",
-            "Located_In"
+            "Located_In",
+            "Kill"
         ],
         "triplets_list": [
             "Sarajevo##Located_In##Bosnia",
@@ -1583,10 +1583,10 @@
         "sentence": "The nine sentences noting the spot where Dallas was settled are followed by this : ` ` On Nov. 22 , 1963 , the building gained national notoriety when Lee Harvey Oswald allegedly shot and killed President John F. Kennedy from a sixth floor window as the presidential motorcade passed the site. ' '",
         "audio_path": "./data/CoNLL04/audio/dev-97.wav",
         "entities_list": [
-            "Dallas",
-            "President John F. Kennedy",
             "Nov.",
-            "Lee Harvey Oswald"
+            "Lee Harvey Oswald",
+            "Dallas",
+            "President John F. Kennedy"
         ],
         "relations_list": [
             "Kill"
@@ -1601,9 +1601,9 @@
         "entities_list": [
             "Minoli",
             "Fini",
-            "Berlin",
+            "Hitler",
             "Bossi",
-            "Hitler"
+            "Berlin"
         ],
         "relations_list": [
             "Live_In"
@@ -1616,9 +1616,9 @@
         "sentence": "` ` One thing I have learned over the past 17 months is that the truth is hard to find , and it remains so , ' ' said Mrs. Higgins , 37 , who is a major inthe Marine Corps and works at the Pentagon as a public information officer.",
         "audio_path": "./data/CoNLL04/audio/dev-99.wav",
         "entities_list": [
-            "Pentagon",
             "Mrs. Higgins",
-            "Marine Corps"
+            "Marine Corps",
+            "Pentagon"
         ],
         "relations_list": [
             "Work_For"
@@ -1632,10 +1632,10 @@
         "sentence": "Sam Kadet of the corporate law firm of Skadden , Arps said Popeyes could give Church 's notice on Thursday that it planned to proceed with the takeover attempt and deliver the information to Church 's after five business days .",
         "audio_path": "./data/CoNLL04/audio/dev-100.wav",
         "entities_list": [
-            "Popeyes",
             "Church 's",
+            "Skadden , Arps",
             "Sam Kadet",
-            "Skadden , Arps"
+            "Popeyes"
         ],
         "relations_list": [
             "Work_For"
@@ -1649,8 +1649,8 @@
         "audio_path": "./data/CoNLL04/audio/dev-101.wav",
         "entities_list": [
             "Israel",
-            "Arabs",
-            "Yisrael Tal"
+            "Yisrael Tal",
+            "Arabs"
         ],
         "relations_list": [
             "Live_In"
@@ -1665,10 +1665,10 @@
         "audio_path": "./data/CoNLL04/audio/dev-102.wav",
         "entities_list": [
             "United States",
-            "U.S.",
             "Russia",
+            "Clinton",
             "$12 billion",
-            "Clinton"
+            "U.S."
         ],
         "relations_list": [
             "Live_In"
@@ -1682,13 +1682,13 @@
         "sentence": "Guy M. Struve , the New York attorney representing Church 's , said he was disappointed and did not know when the chain would decide whether to appeal Thursday 's ruling .",
         "audio_path": "./data/CoNLL04/audio/dev-103.wav",
         "entities_list": [
-            "New York",
             "Church 's",
-            "Guy M. Struve"
+            "Guy M. Struve",
+            "New York"
         ],
         "relations_list": [
-            "Work_For",
-            "Live_In"
+            "Live_In",
+            "Work_For"
         ],
         "triplets_list": [
             "Guy M. Struve##Live_In##New York",
@@ -1699,11 +1699,11 @@
         "sentence": "A golden future seemed assured when , at 25 , Ogdon shared top place with Soviet pianist Vladimir Ashkenazy in the piano section of the 1962 Moscow Tchaikovsky International Competition for young musicians.",
         "audio_path": "./data/CoNLL04/audio/dev-104.wav",
         "entities_list": [
-            "Moscow Tchaikovsky International Competition",
-            "Vladimir Ashkenazy",
+            "1962",
             "Ogdon",
             "Soviet",
-            "1962",
+            "Vladimir Ashkenazy",
+            "Moscow Tchaikovsky International Competition",
             "piano"
         ],
         "relations_list": [
@@ -1717,10 +1717,10 @@
         "sentence": "Illinois born Charlton Heston was a 27-year-old actor from Broadway and television when he arrived in Hollywood for a five-picture contract with Hal Wallis .",
         "audio_path": "./data/CoNLL04/audio/dev-105.wav",
         "entities_list": [
-            "Illinois",
             "Hal Wallis",
-            "Broadway",
             "Charlton Heston",
+            "Illinois",
+            "Broadway",
             "Hollywood"
         ],
         "relations_list": [
@@ -1734,9 +1734,9 @@
         "sentence": "The justices heard 60 minutes of arguments Wednesday on whether they will allow the execution of Johnny Paul Penry , 32 , a convicted rapist-murderer sentenced to die in Texas .",
         "audio_path": "./data/CoNLL04/audio/dev-106.wav",
         "entities_list": [
+            "60 minutes",
             "Texas",
-            "Johnny Paul Penry",
-            "60 minutes"
+            "Johnny Paul Penry"
         ],
         "relations_list": [
             "Live_In"
@@ -1763,13 +1763,13 @@
         "sentence": "BRISBANE , Australia ( AP )",
         "audio_path": "./data/CoNLL04/audio/dev-108.wav",
         "entities_list": [
-            "AP",
+            "BRISBANE",
             "Australia",
-            "BRISBANE"
+            "AP"
         ],
         "relations_list": [
-            "OrgBased_In",
-            "Located_In"
+            "Located_In",
+            "OrgBased_In"
         ],
         "triplets_list": [
             "BRISBANE##Located_In##Australia",
@@ -1782,8 +1782,8 @@
         "audio_path": "./data/CoNLL04/audio/dev-109.wav",
         "entities_list": [
             "Laercio Vinhas",
-            "CNEN",
-            "3 percent"
+            "3 percent",
+            "CNEN"
         ],
         "relations_list": [
             "Work_For"
@@ -1796,9 +1796,9 @@
         "sentence": "Photographer , author , filmmaker and composer Gordon Parks , 76 , born in Fort Scott , Kan. , who was on the photographic staff of Life Magazine for 19 years before branching out into other activities.",
         "audio_path": "./data/CoNLL04/audio/dev-110.wav",
         "entities_list": [
+            "Gordon Parks",
             "Fort Scott , Kan.",
-            "Life Magazine",
-            "Gordon Parks"
+            "Life Magazine"
         ],
         "relations_list": [
             "Live_In"
@@ -1811,8 +1811,8 @@
         "sentence": "In 1830 , poet Emily Dickinson was born in Amherst , Mass.",
         "audio_path": "./data/CoNLL04/audio/dev-111.wav",
         "entities_list": [
-            "Emily Dickinson",
-            "Amherst , Mass."
+            "Amherst , Mass.",
+            "Emily Dickinson"
         ],
         "relations_list": [
             "Live_In"
@@ -1825,8 +1825,8 @@
         "sentence": "` ` This is not a good idea for a lot of environmental reasons , ' ' Stephanie Powell , of the DEM 's division of groundwater and freshwater wetlands , said Tuesday.",
         "audio_path": "./data/CoNLL04/audio/dev-112.wav",
         "entities_list": [
-            "DEM",
-            "Stephanie Powell"
+            "Stephanie Powell",
+            "DEM"
         ],
         "relations_list": [
             "Work_For"
@@ -1839,10 +1839,10 @@
         "sentence": "Nihat ( Marka ) , deputy leader of SHP ( Social Democrat Populist Party ) parliamentary group , said : They should have run in the elections for the sake of democracy .",
         "audio_path": "./data/CoNLL04/audio/dev-113.wav",
         "entities_list": [
-            "Nihat",
-            "SHP",
             "Social Democrat Populist Party",
-            "Marka"
+            "SHP",
+            "Marka",
+            "Nihat"
         ],
         "relations_list": [
             "Work_For"
@@ -1858,8 +1858,8 @@
         "sentence": "A statement from military headquarters said the aircraft crashed during a 260-mile flight to Khartoum from Kassala in eastern Sudan near the Ethiopian border.",
         "audio_path": "./data/CoNLL04/audio/dev-114.wav",
         "entities_list": [
-            "Sudan",
             "Khartoum",
+            "Sudan",
             "Kassala"
         ],
         "relations_list": [
@@ -1873,15 +1873,15 @@
         "sentence": "Harrington , a professor of political science at Queens College of the City University of New York and honorary president of the Socialist International , died Monday night at his home in suburban Larchmont , the university said in a statement Tuesday.",
         "audio_path": "./data/CoNLL04/audio/dev-115.wav",
         "entities_list": [
-            "Harrington",
-            "Socialist International",
             "City University of New York",
+            "Socialist International",
+            "Larchmont",
             "Queens College",
-            "Larchmont"
+            "Harrington"
         ],
         "relations_list": [
-            "Work_For",
-            "Live_In"
+            "Live_In",
+            "Work_For"
         ],
         "triplets_list": [
             "Harrington##Work_For##Queens College",
@@ -1896,8 +1896,8 @@
         "entities_list": [
             "San Francisco",
             "Portland , Ore.",
-            "Feb.",
-            "Norton Winfred Simon"
+            "Norton Winfred Simon",
+            "Feb."
         ],
         "relations_list": [
             "Live_In"
@@ -1910,12 +1910,12 @@
         "sentence": "The National Aeronautics and Space Administration announced Thursday that Ulf D. Merbold , 47 , of the European Space Agency and Roger K. Crouch of NASA have been chosen to train to perform materials sciences experiments on the International Microgravity Laboratory-1 mission scheduled for April 1991 .",
         "audio_path": "./data/CoNLL04/audio/dev-117.wav",
         "entities_list": [
-            "National Aeronautics and Space Administration",
-            "1991",
+            "Roger K. Crouch",
             "European Space Agency",
             "NASA",
-            "Roger K. Crouch",
-            "Ulf D. Merbold"
+            "Ulf D. Merbold",
+            "National Aeronautics and Space Administration",
+            "1991"
         ],
         "relations_list": [
             "Work_For"
@@ -1930,8 +1930,8 @@
         "sentence": "Prime Minister Felipe Gonzalez of Spain told reporters , ` ` The police actions and the arrests are of great importance to Spanish society on such a major matter as the battle against terrorism. ' '",
         "audio_path": "./data/CoNLL04/audio/dev-118.wav",
         "entities_list": [
-            "Felipe Gonzalez",
-            "Spain"
+            "Spain",
+            "Felipe Gonzalez"
         ],
         "relations_list": [
             "Live_In"
@@ -1963,8 +1963,8 @@
             "Emile Jonassaint"
         ],
         "relations_list": [
-            "OrgBased_In",
-            "Live_In"
+            "Live_In",
+            "OrgBased_In"
         ],
         "triplets_list": [
             "Emile Jonassaint##Live_In##Haiti",
@@ -1977,9 +1977,9 @@
         "sentence": "No. 1 is the West Coast 's tallest building , the 76-story black-glass Columbia Seafirst Center built in 1985 , before downtown zoning went into effect .",
         "audio_path": "./data/CoNLL04/audio/dev-121.wav",
         "entities_list": [
-            "West Coast",
             "Columbia Seafirst Center",
-            "1985"
+            "1985",
+            "West Coast"
         ],
         "relations_list": [
             "Located_In"
@@ -1992,16 +1992,16 @@
         "sentence": "Yahia Bouguettaya , the former mayor of Mohammadia , south-east Algeria , and Mohamed Touali , an activist in Algeria 's Ettahadi ( Challenge ) political party , were assassinated Wednesday .",
         "audio_path": "./data/CoNLL04/audio/dev-122.wav",
         "entities_list": [
-            "Mohamed Touali",
-            "Yahia Bouguettaya",
             "Algeria",
+            "Mohamed Touali",
+            "Ettahadi ( Challenge ) political party",
             "Mohammadia",
-            "Ettahadi ( Challenge ) political party"
+            "Yahia Bouguettaya"
         ],
         "relations_list": [
-            "Work_For",
+            "Located_In",
             "OrgBased_In",
-            "Located_In"
+            "Work_For"
         ],
         "triplets_list": [
             "Mohammadia##Located_In##Algeria",
@@ -2015,8 +2015,8 @@
         "audio_path": "./data/CoNLL04/audio/dev-123.wav",
         "entities_list": [
             "Lee Harvey Oswald",
-            "President Kennedy",
-            "Warren Commission"
+            "Warren Commission",
+            "President Kennedy"
         ],
         "relations_list": [
             "Kill"
@@ -2029,9 +2029,9 @@
         "sentence": "Montana : A fire burning in grassland and scattered timber in the Custer National Forest became the state 's biggest fire of the summer Tuesday when it surpassed 1 , 200 acres.",
         "audio_path": "./data/CoNLL04/audio/dev-124.wav",
         "entities_list": [
-            "Custer National Forest",
+            "Montana",
             "1 , 200 acres.",
-            "Montana"
+            "Custer National Forest"
         ],
         "relations_list": [
             "Located_In"
@@ -2044,9 +2044,9 @@
         "sentence": "JOHANNESBURG , South Africa ( AP )",
         "audio_path": "./data/CoNLL04/audio/dev-125.wav",
         "entities_list": [
-            "JOHANNESBURG",
+            "AP",
             "South Africa",
-            "AP"
+            "JOHANNESBURG"
         ],
         "relations_list": [
             "Located_In"
@@ -2059,8 +2059,8 @@
         "sentence": "The PRAVDA newspaper carries an interview with Radovan Karadzic , leader of Bosnian Serbs and vice-president of the Union of Serb Writers .",
         "audio_path": "./data/CoNLL04/audio/dev-126.wav",
         "entities_list": [
-            "Union of Serb Writers",
             "Radovan Karadzic",
+            "Union of Serb Writers",
             "Serbs"
         ],
         "relations_list": [
@@ -2074,14 +2074,14 @@
         "sentence": "( Text ) The National Central Organization of Panamanian Workers ( CNTP ) , which comprises three workers ' federations and 16 unions for a total of 12 , 000 workers , has proclaimed its determination to support Dr. Ernesto Perez Balladares for the presidency of the Republic .",
         "audio_path": "./data/CoNLL04/audio/dev-127.wav",
         "entities_list": [
-            "the Republic",
             "Ernesto Perez Balladares",
+            "the Republic",
             "CNTP",
             "The National Central Organization of Panamanian Workers"
         ],
         "relations_list": [
-            "OrgBased_In",
-            "Live_In"
+            "Live_In",
+            "OrgBased_In"
         ],
         "triplets_list": [
             "The National Central Organization of Panamanian Workers##OrgBased_In##the Republic",
@@ -2110,12 +2110,12 @@
         "entities_list": [
             "Daniel L. Bakst",
             "Fla.",
-            "Warner",
-            "West Palm Beach"
+            "West Palm Beach",
+            "Warner"
         ],
         "relations_list": [
-            "Live_In",
-            "Located_In"
+            "Located_In",
+            "Live_In"
         ],
         "triplets_list": [
             "Daniel L. Bakst##Live_In##West Palm Beach",
@@ -2141,8 +2141,8 @@
         "sentence": "Sirhan was convicted of Kennedy 's killing and is serving a life sentence .",
         "audio_path": "./data/CoNLL04/audio/dev-131.wav",
         "entities_list": [
-            "Kennedy",
-            "Sirhan"
+            "Sirhan",
+            "Kennedy"
         ],
         "relations_list": [
             "Kill"
@@ -2155,16 +2155,16 @@
         "sentence": "A mechanized infantry battalion belonging to the 21st Brigade of Cerro Muriano in Cordoba and to the 12th Brigade in Botoa in Badajoz , a company of the Special Operations Group in Alicante , and a squadron from the Jarama 1st Cavalry Brigade from Salamanca make up the Cordoba Group .",
         "audio_path": "./data/CoNLL04/audio/dev-132.wav",
         "entities_list": [
-            "Badajoz",
-            "Special Operations Group",
-            "Cordoba",
             "Botoa",
+            "21st Brigade of Cerro Muriano",
             "Alicante",
-            "Salamanca",
             "12th Brigade",
+            "Cordoba",
+            "Salamanca",
+            "Special Operations Group",
             "Jarama 1st Cavalry Brigade",
             "Cordoba Group",
-            "21st Brigade of Cerro Muriano"
+            "Badajoz"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -2181,10 +2181,10 @@
         "sentence": "Those honored were Jean Griffith , mother of a man killed on a Howard Beach , Queens , parkway after being chased by a gang of whites in December 1986 ;",
         "audio_path": "./data/CoNLL04/audio/dev-133.wav",
         "entities_list": [
-            "Jean Griffith",
+            "Queens",
             "Howard Beach",
             "1986",
-            "Queens"
+            "Jean Griffith"
         ],
         "relations_list": [
             "Located_In"
@@ -2197,11 +2197,11 @@
         "sentence": "FBI agents arrived at Sohn 's New Jersey home and escorted him to safety only 30 minutes before KCIA agents showed up , an unidentified senior law enforcement official told the Times .",
         "audio_path": "./data/CoNLL04/audio/dev-134.wav",
         "entities_list": [
-            "Sohn",
-            "KCIA",
             "New Jersey",
             "FBI",
-            "30 minutes"
+            "30 minutes",
+            "KCIA",
+            "Sohn"
         ],
         "relations_list": [
             "Live_In"
@@ -2214,9 +2214,9 @@
         "sentence": "Prime Brian Mulroney 's Progressive Conservative Party won its second consecutive majority government in the election , and he signed the trade pact with President Reagan in January 1988 .",
         "audio_path": "./data/CoNLL04/audio/dev-135.wav",
         "entities_list": [
-            "Reagan",
+            "Progressive Conservative Party",
             "Brian Mulroney",
-            "Progressive Conservative Party"
+            "Reagan"
         ],
         "relations_list": [
             "Work_For"
@@ -2231,8 +2231,8 @@
         "entities_list": [
             "Security Council",
             "Treiki",
-            "6th Fleet",
-            "U.S."
+            "U.S.",
+            "6th Fleet"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -2246,12 +2246,12 @@
         "audio_path": "./data/CoNLL04/audio/dev-137.wav",
         "entities_list": [
             "BANGKOK",
-            "AP",
-            "Thailand"
+            "Thailand",
+            "AP"
         ],
         "relations_list": [
-            "OrgBased_In",
-            "Located_In"
+            "Located_In",
+            "OrgBased_In"
         ],
         "triplets_list": [
             "BANGKOK##Located_In##Thailand",
@@ -2263,10 +2263,10 @@
         "sentence": "In Washington , the General Accounting Office ( GAO ) , the congressional watchdog of government spending , says in a report released last August that Israel might be underestimating the costs of producing and deploying the Arrow system .",
         "audio_path": "./data/CoNLL04/audio/dev-138.wav",
         "entities_list": [
-            "GAO",
+            "General Accounting Office",
             "Israel",
-            "Washington",
-            "General Accounting Office"
+            "GAO",
+            "Washington"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -2280,12 +2280,12 @@
         "sentence": "Britain 's Duchess of York and former Philippines first lady Imelda Marcos topped the list by Blackwell , a designer and self-appointed fashion arbiter whose real name is Richard Sylvan Selzer .",
         "audio_path": "./data/CoNLL04/audio/dev-139.wav",
         "entities_list": [
+            "Blackwell",
             "Britain",
-            "Imelda Marcos",
+            "Richard Sylvan Selzer",
             "Duchess of York",
             "Philippines",
-            "Blackwell",
-            "Richard Sylvan Selzer"
+            "Imelda Marcos"
         ],
         "relations_list": [
             "Live_In"
@@ -2299,10 +2299,10 @@
         "sentence": "Today 's highlight in history : On the Ides of March , 44 B.C. , Roman Emperor Julius Caesar was assassinated by a group of nobles that included Brutus and Cassius .",
         "audio_path": "./data/CoNLL04/audio/dev-140.wav",
         "entities_list": [
-            "Brutus",
             "Cassius",
             "March",
             "Roman Emperor Julius Caesar",
+            "Brutus",
             "Ides"
         ],
         "relations_list": [
@@ -2317,11 +2317,11 @@
         "sentence": "Until President 's Day of this year , the public could not enter the sixth floor of the old school book depository in downtown Dallas , where it 's believed Lee Harvey Oswald fired the shots that killed Kennedy .",
         "audio_path": "./data/CoNLL04/audio/dev-141.wav",
         "entities_list": [
-            "President",
-            "Lee Harvey Oswald",
-            "Dallas",
             "Kennedy",
-            "Day"
+            "Lee Harvey Oswald",
+            "President",
+            "Day",
+            "Dallas"
         ],
         "relations_list": [
             "Kill"
@@ -2335,9 +2335,9 @@
         "audio_path": "./data/CoNLL04/audio/dev-142.wav",
         "entities_list": [
             "Russian Defence Ministry",
+            "Novonezhino",
             "Vladivostok",
-            "Moscow",
-            "Novonezhino"
+            "Moscow"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -2350,9 +2350,9 @@
         "sentence": "Deputy U.S. Ambassador Herbert S. Okun announced the cancellation just before the council began debate , and officials in Washington confirmed it .",
         "audio_path": "./data/CoNLL04/audio/dev-143.wav",
         "entities_list": [
+            "Herbert S. Okun",
             "U.S.",
-            "Washington",
-            "Herbert S. Okun"
+            "Washington"
         ],
         "relations_list": [
             "Live_In"
@@ -2365,15 +2365,15 @@
         "sentence": "Moscow March 5 ( ITAR-TASS ) -- Moscow leading newspapers concentrate on the speeches by President Boris Yeltsin and Premier Viktor Chernomyrdin at the government 's enlarged meeting on Friday .",
         "audio_path": "./data/CoNLL04/audio/dev-144.wav",
         "entities_list": [
+            "ITAR-TASS",
+            "March 5",
             "Boris Yeltsin",
             "Moscow",
-            "Viktor Chernomyrdin",
-            "March 5",
-            "ITAR-TASS"
+            "Viktor Chernomyrdin"
         ],
         "relations_list": [
-            "OrgBased_In",
-            "Live_In"
+            "Live_In",
+            "OrgBased_In"
         ],
         "triplets_list": [
             "ITAR-TASS##OrgBased_In##Moscow",
@@ -2389,10 +2389,10 @@
         "audio_path": "./data/CoNLL04/audio/dev-145.wav",
         "entities_list": [
             "Winter",
-            "Yale University",
-            "1982",
             "Starr",
-            "Reagan"
+            "Reagan",
+            "Yale University",
+            "1982"
         ],
         "relations_list": [
             "Work_For"
@@ -2419,13 +2419,13 @@
         "sentence": "In southwest Louisiana 's Cameron Parish ( county ) , civil defense director Hayes Picou about 8 , 500 of the low-lying parish 's 10 , 000 residents had evacuated the southern coast , most to stay with friends or relatives.",
         "audio_path": "./data/CoNLL04/audio/dev-147.wav",
         "entities_list": [
-            "Cameron Parish",
+            "Hayes Picou",
             "Louisiana",
-            "Hayes Picou"
+            "Cameron Parish"
         ],
         "relations_list": [
-            "Live_In",
-            "Located_In"
+            "Located_In",
+            "Live_In"
         ],
         "triplets_list": [
             "Cameron Parish##Located_In##Louisiana",
@@ -2437,10 +2437,10 @@
         "sentence": "The Internal Revenue Service and Manufacturers Hanover Trust Co. of New York , two of the largest creditors in the Herbert Hunt bankruptcy , said they will file a repayment plan by Friday.",
         "audio_path": "./data/CoNLL04/audio/dev-148.wav",
         "entities_list": [
-            "New York",
-            "Manufacturers Hanover Trust Co.",
             "Internal Revenue Service",
-            "Herbert Hunt"
+            "Manufacturers Hanover Trust Co.",
+            "Herbert Hunt",
+            "New York"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -2453,12 +2453,12 @@
         "sentence": "The committee reported in July 1979 that Lee Harvey Oswald had shot Kennedy and that neither the Soviet Union nor Cuba nor any U.S. government agency was involved in the killing. ;",
         "audio_path": "./data/CoNLL04/audio/dev-149.wav",
         "entities_list": [
-            "Soviet Union",
-            "Lee Harvey Oswald",
-            "U.S.",
-            "Kennedy",
             "July",
-            "Cuba"
+            "Lee Harvey Oswald",
+            "Kennedy",
+            "U.S.",
+            "Cuba",
+            "Soviet Union"
         ],
         "relations_list": [
             "Kill"
@@ -2471,10 +2471,10 @@
         "sentence": "Announces Offer to End Strike PA0302025694 Panama City ACAN in Spanish 2153 GMT 2 Feb 94",
         "audio_path": "./data/CoNLL04/audio/dev-150.wav",
         "entities_list": [
-            "Panama City",
-            "2 Feb 94",
+            "2153 GMT",
             "ACAN",
-            "2153 GMT"
+            "2 Feb 94",
+            "Panama City"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -2487,12 +2487,12 @@
         "sentence": "Other winners are : _ Actress Helen Hayes , 87 , born in Washington , who first appeared on stage at the age of 5 , made her New York debut in 1909 and has played in works of Shakespeare , Tennessee Williams and Eugene O'Neill during her long career as a stage and movie actress.",
         "audio_path": "./data/CoNLL04/audio/dev-151.wav",
         "entities_list": [
-            "Actress Helen Hayes",
-            "Shakespeare",
             "Eugene O'Neill",
             "Washington",
+            "Shakespeare",
             "Tennessee Williams",
-            "New York"
+            "New York",
+            "Actress Helen Hayes"
         ],
         "relations_list": [
             "Live_In"
@@ -2505,11 +2505,11 @@
         "sentence": "Bossi set up the Freedom Alliance not because he believed in it , but because he found that it was necessary to do so. ( Minoli ) Do you think that this continual exchange of insults is advantageous to the common cause ? ( Fini ) It is advantageous because whoever listens does not vote for Occhetto ( leader of the Democratic Party of the Left ) .",
         "audio_path": "./data/CoNLL04/audio/dev-152.wav",
         "entities_list": [
-            "Occhetto",
             "Democratic Party",
             "Minoli",
-            "Freedom Alliance",
+            "Occhetto",
             "Fini",
+            "Freedom Alliance",
             "Bossi"
         ],
         "relations_list": [
@@ -2524,10 +2524,10 @@
         "sentence": "The law , patterned after similar measures in Michigan and California , gives victims ` ` a maximum opportunity to participate , ' ' said Fran Sepler , executive of the state Crime Victim and Witness Advisory Council.",
         "audio_path": "./data/CoNLL04/audio/dev-153.wav",
         "entities_list": [
-            "California",
-            "Michigan",
+            "Fran Sepler",
             "state Crime Victim and Witness Advisory Council.",
-            "Fran Sepler"
+            "California",
+            "Michigan"
         ],
         "relations_list": [
             "Work_For"
@@ -2540,8 +2540,8 @@
         "sentence": "Gary Hess , an Emery employee , saw the plane go down as he was getting off work at the airport .",
         "audio_path": "./data/CoNLL04/audio/dev-154.wav",
         "entities_list": [
-            "Emery",
-            "Gary Hess"
+            "Gary Hess",
+            "Emery"
         ],
         "relations_list": [
             "Work_For"
@@ -2554,9 +2554,9 @@
         "sentence": "The six men were found under the rubble in the basement of a nine-story apartment building which had collapsed on them , the official Soviet news agency said in a report from Yerevan , the capital of Armenia .",
         "audio_path": "./data/CoNLL04/audio/dev-155.wav",
         "entities_list": [
+            "Armenia",
             "Soviet",
-            "Yerevan",
-            "Armenia"
+            "Yerevan"
         ],
         "relations_list": [
             "Located_In"
@@ -2569,11 +2569,11 @@
         "sentence": "In 1963 , the year he joined the Herald Tribune , he was riding in the motorcade with President Kennedy when Kennedy was fatally shot by Lee Harvey Oswald in Dallas. ;",
         "audio_path": "./data/CoNLL04/audio/dev-156.wav",
         "entities_list": [
-            "Dallas.",
             "Lee Harvey Oswald",
             "Kennedy",
-            "President Kennedy",
-            "Herald Tribune"
+            "Dallas.",
+            "Herald Tribune",
+            "President Kennedy"
         ],
         "relations_list": [
             "Kill"
@@ -2586,9 +2586,9 @@
         "sentence": "` ` If we 're going to address this problem it will be a grass-roots effort by activists throughout the cities of the world , ' ' said Jeremy Rifkin , director of the Foundation on Economic Trends and a member of the Global Greenhouse Network , a coalition of environmental activists in 35 countries .",
         "audio_path": "./data/CoNLL04/audio/dev-157.wav",
         "entities_list": [
-            "Global Greenhouse Network",
+            "Foundation on Economic Trends",
             "Jeremy Rifkin",
-            "Foundation on Economic Trends"
+            "Global Greenhouse Network"
         ],
         "relations_list": [
             "Work_For"
@@ -2603,9 +2603,9 @@
         "audio_path": "./data/CoNLL04/audio/dev-158.wav",
         "entities_list": [
             "United",
-            "Sirhan Sirhan",
             "Robert F. Kennedy",
-            "Markman"
+            "Markman",
+            "Sirhan Sirhan"
         ],
         "relations_list": [
             "Kill"
@@ -2646,9 +2646,9 @@
         "sentence": "In 1968 , authorities announced the capture in London of James Earl Ray , suspected of the assassination of civil rights leader Dr. Martin Luther King Jr .",
         "audio_path": "./data/CoNLL04/audio/dev-161.wav",
         "entities_list": [
+            "James Earl Ray",
             "London",
-            "Dr. Martin Luther King Jr",
-            "James Earl Ray"
+            "Dr. Martin Luther King Jr"
         ],
         "relations_list": [
             "Kill"
@@ -2661,10 +2661,10 @@
         "sentence": "James Earl Ray , 60 , is serving 99 years in prison for first-degree murder of King in Memphis on April 4 , 1968 .",
         "audio_path": "./data/CoNLL04/audio/dev-162.wav",
         "entities_list": [
-            "April",
-            "King",
             "James Earl Ray",
-            "Memphis"
+            "April",
+            "Memphis",
+            "King"
         ],
         "relations_list": [
             "Kill"
@@ -2677,13 +2677,13 @@
         "sentence": "( Excerpts ) US President Bill Clinton 's decision to lift a long-standing trade embargo against Vietnam had been expected. ( passage omitted ) In his White House speech , Clinton said the time for bitterness was over and now was the time for a new beginning between Hanoi and Washington .",
         "audio_path": "./data/CoNLL04/audio/dev-163.wav",
         "entities_list": [
-            "Bill Clinton",
-            "US",
             "White House",
+            "Clinton",
             "Washington",
-            "Hanoi",
+            "US",
+            "Bill Clinton",
             "Vietnam",
-            "Clinton"
+            "Hanoi"
         ],
         "relations_list": [
             "Live_In"
@@ -2696,15 +2696,15 @@
         "sentence": "In Washington , U.S officials announced that the Navy will rotate two aircraft carrier battle groups well away from Libya as one replaces the other .",
         "audio_path": "./data/CoNLL04/audio/dev-164.wav",
         "entities_list": [
-            "Navy",
-            "aircraft carrier",
+            "Libya",
             "Washington",
+            "Navy",
             "U.S",
-            "Libya"
+            "aircraft carrier"
         ],
         "relations_list": [
-            "OrgBased_In",
-            "Located_In"
+            "Located_In",
+            "OrgBased_In"
         ],
         "triplets_list": [
             "Washington##Located_In##U.S",
@@ -2715,11 +2715,11 @@
         "sentence": "Such theories , which are not alone in the international press , find support in another agreement that was also signed in Geneva -- which the Croatian opposition ostensibly did not notice , to the great surprise and almost astonishment of all , and consequently did not comment on , although the integral text was published in Croatian newspapers -- the agreement signed between Mile Akmadzic , on behalf of the Croatian Republic of Herceg-Bosna , and Nikola Koljevic , on behalf of the Serbian Republic , in which both sides emphasize that \" there are no disputed issues between them that cannot be solved in a peaceful way . \"",
         "audio_path": "./data/CoNLL04/audio/dev-165.wav",
         "entities_list": [
-            "Croatian Republic of Herceg-Bosna",
-            "Mile Akmadzic",
+            "Serbian Republic",
             "Nikola Koljevic",
+            "Mile Akmadzic",
             "Geneva",
-            "Serbian Republic"
+            "Croatian Republic of Herceg-Bosna"
         ],
         "relations_list": [
             "Live_In"
@@ -2747,11 +2747,11 @@
         "sentence": "Lennon was shot to death Dec. 8 , 1980 , in the courtyard of his New York City apartment building by Mark David Chapman , a former Beatles ' fan who was convicted of the killing and sentenced to prison for a term of 20 years to life .",
         "audio_path": "./data/CoNLL04/audio/dev-167.wav",
         "entities_list": [
-            "Beatles",
-            "Dec.",
-            "Lennon",
             "New York City",
-            "Mark David Chapman"
+            "Dec.",
+            "Mark David Chapman",
+            "Beatles",
+            "Lennon"
         ],
         "relations_list": [
             "Kill"
@@ -2764,8 +2764,8 @@
         "sentence": "In 1890 , the 34th President of the United States , Dwight D. Eisenhower , was born in Denison , Texas .",
         "audio_path": "./data/CoNLL04/audio/dev-168.wav",
         "entities_list": [
-            "United States",
             "Denison , Texas",
+            "United States",
             "Dwight D. Eisenhower"
         ],
         "relations_list": [
@@ -2794,9 +2794,9 @@
         "sentence": "Harrington taught at Harvard University and the National War College.",
         "audio_path": "./data/CoNLL04/audio/dev-170.wav",
         "entities_list": [
-            "Harvard University",
             "Harrington",
-            "National War College."
+            "National War College.",
+            "Harvard University"
         ],
         "relations_list": [
             "Work_For"
@@ -2810,9 +2810,9 @@
         "sentence": "The federal appeals court threw out the death sentence of John Harvey Adamson , convicted of murdering Phoenix newspaper reporter Don Bolles in 1976 .",
         "audio_path": "./data/CoNLL04/audio/dev-171.wav",
         "entities_list": [
+            "Phoenix",
             "John Harvey Adamson",
-            "Don Bolles",
-            "Phoenix"
+            "Don Bolles"
         ],
         "relations_list": [
             "Kill"
@@ -2825,17 +2825,17 @@
         "sentence": "Fred Farrar , another FAA spokesman , said airlines flying the 737-300s are Aloha , America West , American , Continental , Delta , Orion , Piedmont , Southwest , United and U.S. Air .",
         "audio_path": "./data/CoNLL04/audio/dev-172.wav",
         "entities_list": [
-            "Southwest",
-            "Piedmont",
-            "United",
-            "Aloha",
-            "U.S. Air",
-            "Fred Farrar",
+            "American",
             "Delta",
             "Orion",
-            "FAA",
+            "Aloha",
+            "United",
             "Continental",
-            "American",
+            "Fred Farrar",
+            "FAA",
+            "Southwest",
+            "Piedmont",
+            "U.S. Air",
             "America West"
         ],
         "relations_list": [
@@ -2850,14 +2850,14 @@
         "audio_path": "./data/CoNLL04/audio/dev-173.wav",
         "entities_list": [
             "Navy",
+            "Stalin",
             "Soviet",
-            "Nikolai Kuznetsov",
-            "Stalin"
+            "Nikolai Kuznetsov"
         ],
         "relations_list": [
-            "OrgBased_In",
+            "Live_In",
             "Work_For",
-            "Live_In"
+            "OrgBased_In"
         ],
         "triplets_list": [
             "Navy##OrgBased_In##Soviet",
@@ -2871,9 +2871,9 @@
         "sentence": "National Congress President Vinicio Villar Anleu commented on the implications of the case : ( Begin recording ) ( Villar Anleu ) It seems to us -- and we uphold Congress ' institutional policy -- that the nation 's laws must be respected and that the Constitution must be respected .",
         "audio_path": "./data/CoNLL04/audio/dev-174.wav",
         "entities_list": [
+            "Villar Anleu",
             "Vinicio Villar Anleu",
             "Congress",
-            "Villar Anleu",
             "National Congress"
         ],
         "relations_list": [
@@ -2887,9 +2887,9 @@
         "sentence": "Several organizations planned remembrances later today at Parkland Memorial Hospital , where Kennedy was taken after being shot , and the Texas Theater , where Lee Harvey Oswald was arrested hours after the assassination .",
         "audio_path": "./data/CoNLL04/audio/dev-175.wav",
         "entities_list": [
-            "Texas Theater",
-            "Kennedy",
             "Parkland Memorial Hospital",
+            "Kennedy",
+            "Texas Theater",
             "Lee Harvey Oswald"
         ],
         "relations_list": [
@@ -2903,10 +2903,10 @@
         "sentence": "Ambassador Miller is also scheduled to meet with Crimean Deputy Yevhen Saburov and Black Sea Fleet Commander Eduard Baltin.",
         "audio_path": "./data/CoNLL04/audio/dev-176.wav",
         "entities_list": [
-            "Yevhen Saburov",
             "Eduard Baltin.",
-            "Black Sea Fleet",
-            "Miller"
+            "Yevhen Saburov",
+            "Miller",
+            "Black Sea Fleet"
         ],
         "relations_list": [
             "Work_For"
@@ -2919,8 +2919,8 @@
         "sentence": "` ` I think the longer they talk , the longer they delay , the greater the chances that we may turn this around and get them all home , ' ' said Ms. Say in Nashville , Tenn.",
         "audio_path": "./data/CoNLL04/audio/dev-177.wav",
         "entities_list": [
-            "Tenn.",
             "Nashville",
+            "Tenn.",
             "Ms. Say"
         ],
         "relations_list": [
@@ -2934,9 +2934,9 @@
         "sentence": "A chart used to decipher the code was found among Booth 's effects after he was shot by Union soldiers 11 days after the assassination of Lincoln .",
         "audio_path": "./data/CoNLL04/audio/dev-178.wav",
         "entities_list": [
+            "Union",
             "Booth",
-            "Lincoln",
-            "Union"
+            "Lincoln"
         ],
         "relations_list": [
             "Kill"
@@ -2949,12 +2949,12 @@
         "sentence": "( Text ) Taipei , Jan. 20 ( CNA ) -- Foreign Chien Fu will leave for the United States on January 29 to give two speeches in the Boston area .",
         "audio_path": "./data/CoNLL04/audio/dev-179.wav",
         "entities_list": [
-            "Jan. 20",
             "United States",
             "Boston",
-            "Taipei",
             "January 29",
-            "Chien Fu"
+            "Chien Fu",
+            "Jan. 20",
+            "Taipei"
         ],
         "relations_list": [
             "Live_In"
@@ -2968,8 +2968,8 @@
         "audio_path": "./data/CoNLL04/audio/dev-180.wav",
         "entities_list": [
             "Jo Ann Emmerich",
-            "Ryan 's Hope",
-            "ABC Entertainment"
+            "ABC Entertainment",
+            "Ryan 's Hope"
         ],
         "relations_list": [
             "Work_For"
@@ -2997,8 +2997,8 @@
         "sentence": "Moscow MOSKOVSKIY KOMSOMOLETS",
         "audio_path": "./data/CoNLL04/audio/dev-182.wav",
         "entities_list": [
-            "Moscow",
-            "MOSKOVSKIY KOMSOMOLETS"
+            "MOSKOVSKIY KOMSOMOLETS",
+            "Moscow"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -3026,10 +3026,10 @@
         "sentence": "Many had hoped their loyality would convince the banks , primarily the Frankfurt-based Commerzbank and Giessen 's Bezirksparkasse bank , to continue to help Minox , but the hope backfired on those who were layed off , he said .",
         "audio_path": "./data/CoNLL04/audio/dev-184.wav",
         "entities_list": [
+            "Commerzbank",
             "Bezirksparkasse bank",
             "Giessen",
-            "Minox",
-            "Commerzbank"
+            "Minox"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -3042,8 +3042,8 @@
         "sentence": "An abstract theory explaining the structure of minimal surface in Riemann 's multi-dimensional space has been developed by Wang Guangyan , with the assistance of his PhD student , at the Institute of Mathematics .",
         "audio_path": "./data/CoNLL04/audio/dev-185.wav",
         "entities_list": [
-            "Institute of Mathematics",
-            "Wang Guangyan"
+            "Wang Guangyan",
+            "Institute of Mathematics"
         ],
         "relations_list": [
             "Work_For"
@@ -3056,11 +3056,11 @@
         "sentence": "Owen Le Vallee , president of the Liberation Day Committee , said his mother found a starving German in the outhouse during the year after D-Day , the 1944 Allied invasion of Europe.",
         "audio_path": "./data/CoNLL04/audio/dev-186.wav",
         "entities_list": [
-            "Owen Le Vallee",
+            "1944",
             "Liberation Day Committee",
             "Europe.",
-            "German",
-            "1944"
+            "Owen Le Vallee",
+            "German"
         ],
         "relations_list": [
             "Work_For"
@@ -3073,13 +3073,13 @@
         "sentence": "KARBALA , Iraq ( AP )",
         "audio_path": "./data/CoNLL04/audio/dev-187.wav",
         "entities_list": [
-            "KARBALA",
             "AP",
+            "KARBALA",
             "Iraq"
         ],
         "relations_list": [
-            "OrgBased_In",
-            "Located_In"
+            "Located_In",
+            "OrgBased_In"
         ],
         "triplets_list": [
             "KARBALA##Located_In##Iraq",
@@ -3105,15 +3105,15 @@
         "sentence": "( Text ) In an interview with Interfax the chief of Belarus 's Security Committee , Eduard Shirkovskiy , has dismissed rumors that the copies of the files relating to Lee Harvey Oswald , who was charged with having assassinated President John Kennedy , will be handed to President Bill Clinton during his visit to Minsk .",
         "audio_path": "./data/CoNLL04/audio/dev-189.wav",
         "entities_list": [
-            "Belarus",
             "Lee Harvey Oswald",
-            "Text",
-            "Interfax",
-            "President John Kennedy",
-            "President Bill Clinton",
             "Security Committee",
             "Minsk",
-            "Eduard Shirkovskiy"
+            "Belarus",
+            "Eduard Shirkovskiy",
+            "Interfax",
+            "President John Kennedy",
+            "Text",
+            "President Bill Clinton"
         ],
         "relations_list": [
             "Kill"
@@ -3126,16 +3126,16 @@
         "sentence": "Michael Henley Jr. , 10 , disappeared on a turkey hunt with his father in April 1988 in the mountains near their hometown of Grants , N.M. Ms. Calico , then 19 , disappeared five months later while bicycling on a country road near her hometown of Belen , N.M.",
         "audio_path": "./data/CoNLL04/audio/dev-190.wav",
         "entities_list": [
-            "Ms. Calico",
-            "Grants",
-            "Michael Henley Jr.",
-            "N.M.",
             "Belen",
-            "1988"
+            "Ms. Calico",
+            "N.M.",
+            "1988",
+            "Grants",
+            "Michael Henley Jr."
         ],
         "relations_list": [
-            "Live_In",
-            "Located_In"
+            "Located_In",
+            "Live_In"
         ],
         "triplets_list": [
             "Michael Henley Jr.##Live_In##Grants",
@@ -3151,12 +3151,12 @@
         "sentence": "( Text ) Moscow April 25 TASS -- Preliminary marine pollution measurements taken from the sites of radioactive waste dumping by the former Soviet Union and Japan in the Sea of Japan did not reveal any Caesium-137 radioactive level fluctuations .",
         "audio_path": "./data/CoNLL04/audio/dev-191.wav",
         "entities_list": [
-            "April 25",
-            "Soviet Union",
-            "Moscow",
-            "Sea of Japan",
             "TASS",
-            "Japan"
+            "Japan",
+            "Sea of Japan",
+            "Moscow",
+            "April 25",
+            "Soviet Union"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -3170,10 +3170,10 @@
         "audio_path": "./data/CoNLL04/audio/dev-192.wav",
         "entities_list": [
             "Spanish",
-            "Madrid",
             "Jose Antonio Urutigoechea",
+            "Basque",
             "ETA",
-            "Basque"
+            "Madrid"
         ],
         "relations_list": [
             "Work_For"
@@ -3186,11 +3186,11 @@
         "sentence": "The Warren Commission concluded that Oswald , acting alone , fired the shots that killed Kennedy and wounded John Connally , then the Texas governor .",
         "audio_path": "./data/CoNLL04/audio/dev-193.wav",
         "entities_list": [
-            "Warren Commission",
-            "Texas",
-            "Oswald",
             "Kennedy",
-            "John Connally"
+            "John Connally",
+            "Oswald",
+            "Warren Commission",
+            "Texas"
         ],
         "relations_list": [
             "Kill"
@@ -3203,8 +3203,8 @@
         "sentence": "The advisory committee voted 7-1 to recommend that the drug remain a prescription ingredient , said Susan Cruzan , an FDA spokeswoman.",
         "audio_path": "./data/CoNLL04/audio/dev-194.wav",
         "entities_list": [
-            "FDA",
-            "Susan Cruzan"
+            "Susan Cruzan",
+            "FDA"
         ],
         "relations_list": [
             "Work_For"
@@ -3217,9 +3217,9 @@
         "sentence": "` ` It 's been a nightmare , ' ' said Shelley Yeager , director of the Clara Barton camp at Oxford in central Massachusetts.",
         "audio_path": "./data/CoNLL04/audio/dev-195.wav",
         "entities_list": [
-            "Oxford",
             "Shelley Yeager",
-            "Massachusetts."
+            "Massachusetts.",
+            "Oxford"
         ],
         "relations_list": [
             "Located_In"
@@ -3232,10 +3232,10 @@
         "sentence": "And William McKinley 's assassin Leon Czolgosz croons \" The Ballad of Czolgosz \" from the electric chair .",
         "audio_path": "./data/CoNLL04/audio/dev-196.wav",
         "entities_list": [
-            "Ballad",
+            "Leon Czolgosz",
             "Czolgosz",
-            "William McKinley",
-            "Leon Czolgosz"
+            "Ballad",
+            "William McKinley"
         ],
         "relations_list": [
             "Kill"
@@ -3248,10 +3248,10 @@
         "sentence": "Yeltsin Orders Audit of Ostankino Finances MK1401103094 Moscow MOSKOVSKIY KOMSOMOLETS in Russian 14 Jan 94 p 1",
         "audio_path": "./data/CoNLL04/audio/dev-197.wav",
         "entities_list": [
-            "Moscow",
-            "14 Jan 94",
+            "MOSKOVSKIY KOMSOMOLETS",
             "Yeltsin",
-            "MOSKOVSKIY KOMSOMOLETS"
+            "14 Jan 94",
+            "Moscow"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -3264,9 +3264,9 @@
         "sentence": "` ` We are constantly getting confirmation that the U.S. economy is no longer in a boom phase , and that interest rates are falling , ' ' said a dealer at a U.S. bank in Frankfurt , West Germany.",
         "audio_path": "./data/CoNLL04/audio/dev-198.wav",
         "entities_list": [
-            "Frankfurt",
             "U.S.",
-            "West Germany."
+            "West Germany.",
+            "Frankfurt"
         ],
         "relations_list": [
             "Located_In"
@@ -3279,8 +3279,8 @@
         "sentence": "In 1969 , Sirhan Sirhan was convicted of assassinating U.S. Sen. Robert F. Kennedy .",
         "audio_path": "./data/CoNLL04/audio/dev-199.wav",
         "entities_list": [
-            "Sirhan Sirhan",
-            "U.S. Sen. Robert F. Kennedy"
+            "U.S. Sen. Robert F. Kennedy",
+            "Sirhan Sirhan"
         ],
         "relations_list": [
             "Kill"
@@ -3293,10 +3293,10 @@
         "sentence": "Jesse Jackson easily won the Democratic precinct caucuses Saturday in his native South Carolina , while Sen. Bob Dole went on Illinois television for a half-hour plea for Republican votes in a state where he said he is the underdog .",
         "audio_path": "./data/CoNLL04/audio/dev-200.wav",
         "entities_list": [
-            "Jesse Jackson",
             "Illinois",
-            "Saturday",
+            "Jesse Jackson",
             "South Carolina",
+            "Saturday",
             "Sen. Bob Dole"
         ],
         "relations_list": [
@@ -3310,8 +3310,8 @@
         "sentence": "MEXICO CITY ( AP )",
         "audio_path": "./data/CoNLL04/audio/dev-201.wav",
         "entities_list": [
-            "MEXICO CITY",
-            "AP"
+            "AP",
+            "MEXICO CITY"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -3324,13 +3324,13 @@
         "sentence": "Temperatures around the nation at 2 a.m. EST ranged from 2 degrees at Jackson , Wyo. , and Gunnison , Colo. , to 89 degrees at McAllen , Texas .",
         "audio_path": "./data/CoNLL04/audio/dev-202.wav",
         "entities_list": [
-            "Colo.",
+            "Wyo.",
+            "2 a.m. EST",
             "Jackson",
             "Texas",
             "Gunnison",
-            "McAllen",
-            "Wyo.",
-            "2 a.m. EST"
+            "Colo.",
+            "McAllen"
         ],
         "relations_list": [
             "Located_In"
@@ -3345,9 +3345,9 @@
         "sentence": "` ` We certainly believe it 's a prudent measure to go out and check to make sure there 's nothing wrong with the fleet , ' ' Boeing Commercial Airplanes spokesman Craig Martin said Wednesday in Seattle .",
         "audio_path": "./data/CoNLL04/audio/dev-203.wav",
         "entities_list": [
-            "Boeing Commercial Airplanes",
+            "Craig Martin",
             "Seattle",
-            "Craig Martin"
+            "Boeing Commercial Airplanes"
         ],
         "relations_list": [
             "Work_For"
@@ -3388,9 +3388,9 @@
         "sentence": "If the elections had been held during the last 10 days of May , that is , after the debate , Fernandez de Cevallos would reportedly be the next president of Mexico with 33.2 percent of the vote .",
         "audio_path": "./data/CoNLL04/audio/dev-206.wav",
         "entities_list": [
-            "33.2 percent",
             "Mexico",
-            "Fernandez de Cevallos"
+            "Fernandez de Cevallos",
+            "33.2 percent"
         ],
         "relations_list": [
             "Live_In"
@@ -3403,8 +3403,8 @@
         "sentence": "Authorities say Oswald opened fire from a sixth-floor window there into Kennedy 's motorcade .",
         "audio_path": "./data/CoNLL04/audio/dev-207.wav",
         "entities_list": [
-            "Oswald",
-            "Kennedy"
+            "Kennedy",
+            "Oswald"
         ],
         "relations_list": [
             "Kill"
@@ -3417,12 +3417,12 @@
         "sentence": "Meanwhile , the historical society in Beaumont , Texas , Richardson 's hometown , plans to raise two statues on Feb. 3 _ one of Buddy Holly , Richardson and Valens , and a second of the Big Bopper alone .",
         "audio_path": "./data/CoNLL04/audio/dev-208.wav",
         "entities_list": [
-            "Feb.",
             "Buddy Holly",
-            "Big Bopper",
             "Richardson",
+            "Feb.",
+            "Valens",
             "Beaumont , Texas",
-            "Valens"
+            "Big Bopper"
         ],
         "relations_list": [
             "Live_In"
@@ -3435,16 +3435,16 @@
         "sentence": "At a briefing at NRC headquarters in nearby Rockville , Md. , Bernero said the volcanic cones in the area of Yucca Mountain have been a cause of concern for NRC experts.",
         "audio_path": "./data/CoNLL04/audio/dev-209.wav",
         "entities_list": [
-            "Md.",
             "Rockville",
             "NRC",
+            "Bernero",
             "Yucca Mountain",
-            "Bernero"
+            "Md."
         ],
         "relations_list": [
-            "OrgBased_In",
+            "Located_In",
             "Work_For",
-            "Located_In"
+            "OrgBased_In"
         ],
         "triplets_list": [
             "NRC##OrgBased_In##Rockville",
@@ -3459,18 +3459,18 @@
         "sentence": "( Text ) Saint-Gall , Switzerland , Feb 2 ( AFP ) -- The wreck of a twin-engine aircraft has been found 160 metres below the surface of Lake Constance , Swiss police said Tuesday ( 1 February ) .",
         "audio_path": "./data/CoNLL04/audio/dev-210.wav",
         "entities_list": [
-            "Lake Constance",
-            "Saint-Gall",
-            "Switzerland",
             "( 1 February",
+            "Swiss",
+            "Switzerland",
             "AFP",
             "Feb 2",
-            "Swiss",
-            "160 metres"
+            "160 metres",
+            "Saint-Gall",
+            "Lake Constance"
         ],
         "relations_list": [
-            "OrgBased_In",
-            "Located_In"
+            "Located_In",
+            "OrgBased_In"
         ],
         "triplets_list": [
             "Saint-Gall##Located_In##Switzerland",
@@ -3482,8 +3482,8 @@
         "sentence": "According to the communique , clashes are continuing mainly in the Rancho Nuevo area at the military base in the southern Chiapas State .",
         "audio_path": "./data/CoNLL04/audio/dev-211.wav",
         "entities_list": [
-            "Chiapas State",
-            "Rancho Nuevo"
+            "Rancho Nuevo",
+            "Chiapas State"
         ],
         "relations_list": [
             "Located_In"
@@ -3496,10 +3496,10 @@
         "sentence": "Dallas police arrested Oswald there on Nov. 22 , 1963 , after the assassination of President John F. Kennedy .",
         "audio_path": "./data/CoNLL04/audio/dev-212.wav",
         "entities_list": [
-            "Dallas",
+            "Nov.",
             "Oswald",
-            "President John F. Kennedy",
-            "Nov."
+            "Dallas",
+            "President John F. Kennedy"
         ],
         "relations_list": [
             "Kill"
@@ -3512,9 +3512,9 @@
         "sentence": "In Washington state , near the Canadian border , firefighters hoped to contain an 850-acre fire by tonight , said Greg Thayer of the Forest Service.",
         "audio_path": "./data/CoNLL04/audio/dev-213.wav",
         "entities_list": [
-            "Forest Service.",
+            "Greg Thayer",
             "Washington",
-            "Greg Thayer"
+            "Forest Service."
         ],
         "relations_list": [
             "Work_For"
@@ -3541,10 +3541,10 @@
         "sentence": "In it , actor Edwin Booth tells us his version of his life story , in which he and not his brother John Wilkes shoots Abraham Lincoln at Ford 's Theater .",
         "audio_path": "./data/CoNLL04/audio/dev-215.wav",
         "entities_list": [
-            "Edwin Booth",
+            "Abraham Lincoln",
             "Ford",
             "John Wilkes",
-            "Abraham Lincoln"
+            "Edwin Booth"
         ],
         "relations_list": [
             "Kill"
@@ -3557,9 +3557,9 @@
         "sentence": "In 1801 , Mormon leader Brigham Young was born in Whitingham , Vt .",
         "audio_path": "./data/CoNLL04/audio/dev-216.wav",
         "entities_list": [
+            "Whitingham , Vt",
             "Brigham Young",
-            "Mormon",
-            "Whitingham , Vt"
+            "Mormon"
         ],
         "relations_list": [
             "Live_In"
@@ -3572,13 +3572,13 @@
         "sentence": "The Warren Commission concluded that Lee Harvey Oswald , acting alone , fired the shots that killed Kennedy and wounded John Connally , then the Texas governor , on Nov. 22 , 1963 in Dallas .",
         "audio_path": "./data/CoNLL04/audio/dev-217.wav",
         "entities_list": [
+            "Nov.",
             "Lee Harvey Oswald",
-            "Warren Commission",
-            "Texas",
-            "Dallas",
             "Kennedy",
             "John Connally",
-            "Nov."
+            "Warren Commission",
+            "Texas",
+            "Dallas"
         ],
         "relations_list": [
             "Kill"
@@ -3592,8 +3592,8 @@
         "audio_path": "./data/CoNLL04/audio/dev-218.wav",
         "entities_list": [
             "two miles",
-            "Whitefish City",
-            "Tom Muri."
+            "Tom Muri.",
+            "Whitefish City"
         ],
         "relations_list": [
             "Live_In"
@@ -3606,9 +3606,9 @@
         "sentence": "In California 's Sierra Nevada foothills , firefighters today declared they had contained a fire that blackened 11 , 700 acres of brush and grassland and destroyed seven homes.",
         "audio_path": "./data/CoNLL04/audio/dev-219.wav",
         "entities_list": [
-            "California",
             "11 , 700 acres",
-            "Sierra Nevada"
+            "Sierra Nevada",
+            "California"
         ],
         "relations_list": [
             "Located_In"
@@ -3621,13 +3621,13 @@
         "sentence": "\" I was hearing the same story , \" says James Hackett , an executive with Titan Systems and one of the leading missile experts in the U.S .",
         "audio_path": "./data/CoNLL04/audio/dev-220.wav",
         "entities_list": [
+            "Titan Systems",
             "U.S .",
-            "James Hackett",
-            "Titan Systems"
+            "James Hackett"
         ],
         "relations_list": [
-            "Work_For",
-            "Live_In"
+            "Live_In",
+            "Work_For"
         ],
         "triplets_list": [
             "James Hackett##Work_For##Titan Systems",
@@ -3638,9 +3638,9 @@
         "sentence": "The quake leveled much of Leninakan , Armenia 's second-largest city 10 miles east of the Turkish border and left thousands homeless .",
         "audio_path": "./data/CoNLL04/audio/dev-221.wav",
         "entities_list": [
-            "10 miles",
             "Armenia",
-            "Leninakan"
+            "Leninakan",
+            "10 miles"
         ],
         "relations_list": [
             "Located_In"
@@ -3667,10 +3667,10 @@
         "sentence": "Barrett is a member of the Illinois Commerce Commission , and Marshall is a lawyer and former legislative aide to Patrick.",
         "audio_path": "./data/CoNLL04/audio/dev-223.wav",
         "entities_list": [
-            "Barrett",
-            "Marshall",
             "Illinois Commerce Commission",
-            "Patrick."
+            "Marshall",
+            "Patrick.",
+            "Barrett"
         ],
         "relations_list": [
             "Work_For"
@@ -3697,10 +3697,10 @@
         "sentence": "Ten years ago : James Earl Ray , convicted of assassinating Dr. Martin Luther King Jr. in 1968 , repeated his assertion at a Capitol Hill hearing that he did not commit the crime , saying he 'd been set up to take the blame by a mysterious man called Raoul .",
         "audio_path": "./data/CoNLL04/audio/dev-225.wav",
         "entities_list": [
-            "Dr. Martin Luther King Jr.",
             "James Earl Ray",
             "Raoul",
-            "Capitol Hill"
+            "Capitol Hill",
+            "Dr. Martin Luther King Jr."
         ],
         "relations_list": [
             "Kill"
@@ -3713,9 +3713,9 @@
         "sentence": "They will also be cleaning the car Oswald drove on the day Kennedy was shot and the ambulance that took Oswald to hospital after he was shot by Jack Ruby .",
         "audio_path": "./data/CoNLL04/audio/dev-226.wav",
         "entities_list": [
-            "Oswald",
+            "Jack Ruby",
             "Kennedy",
-            "Jack Ruby"
+            "Oswald"
         ],
         "relations_list": [
             "Kill"
@@ -3728,11 +3728,11 @@
         "sentence": "Widespread street flooding was reported throughout Brazoria , Fort Bend , Galveston and southern Harris Counties in southeast Texas.",
         "audio_path": "./data/CoNLL04/audio/dev-227.wav",
         "entities_list": [
-            "Harris Counties",
-            "Texas.",
-            "Fort Bend",
             "Galveston",
-            "Brazoria"
+            "Fort Bend",
+            "Texas.",
+            "Brazoria",
+            "Harris Counties"
         ],
         "relations_list": [
             "Located_In"
@@ -3748,10 +3748,10 @@
         "sentence": "LD2804174994 Moscow INTERFAX in English 1601 GMT 28 Apr 94",
         "audio_path": "./data/CoNLL04/audio/dev-228.wav",
         "entities_list": [
-            "Moscow",
+            "INTERFAX",
             "28 Apr 94",
             "1601 GMT",
-            "INTERFAX"
+            "Moscow"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -3766,8 +3766,8 @@
         "entities_list": [
             "Navy",
             "Mediterranean",
-            "Coral Sea",
-            "6th Fleet"
+            "6th Fleet",
+            "Coral Sea"
         ],
         "relations_list": [
             "OrgBased_In"
@@ -3780,8 +3780,8 @@
         "sentence": "It is one of many deep below the arid surface , fed by underground channels that carry rainwater from the Najd plateau in northern Saudi Arabia to the west.",
         "audio_path": "./data/CoNLL04/audio/dev-230.wav",
         "entities_list": [
-            "Najd plateau",
-            "Saudi Arabia"
+            "Saudi Arabia",
+            "Najd plateau"
         ],
         "relations_list": [
             "Located_In"
