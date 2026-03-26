@@ -208,7 +208,7 @@ class QwenAudioRTEModel(L.LightningModule):
     def test_step(self, batch, accelerator=None): 
 
         with torch.no_grad():
-            with accelerator.autocast(enabled=False):
+            with accelerator.autocast():
                 generated_ids = self.qwenaudio.generate(
                     **batch["dev_input"], 
                     max_new_tokens=128,

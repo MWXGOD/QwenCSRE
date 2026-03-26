@@ -223,4 +223,4 @@ if __name__ == "__main__":
 
         labels = batch["labels"].clone()
         labels[labels == -100] = dm.processor.tokenizer.pad_token_id
-        labels = dm.processor.batch_decode(labels, skip_special_tokens=True
+        labels = dm.processor.batch_decode(labels, skip_special_tokens=True)
