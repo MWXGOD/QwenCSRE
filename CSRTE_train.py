@@ -98,8 +98,17 @@ for epoch in range(hyperargs.epochs_num):
     P_NER, R_NER, F1_NER, P_RE, R_RE, F1_RE, P_RTE, R_RTE, F1_RTE = model.on_validation_batch_end()
     final_f1 = F1_RTE
     swanlab.log({"final_f1": final_f1})
-    swanlab.log({"P_RTE": P_RTE, "R_RTE": R_RTE, "F1_RTE": F1_RTE})
-    
+    swanlab.log({
+        "P_NER": P_NER,
+        "R_NER": R_NER,
+        "F1_NER": F1_NER,
+        "P_RE": P_RE,
+        "R_RE": R_RE,
+        "F1_RE": F1_RE,
+        "P_RTE": P_RTE,
+        "R_RTE": R_RTE,
+        "F1_RTE": F1_RTE
+    })
     os.makedirs(hyperargs.output_result_path, exist_ok=True)
     with open(f"{hyperargs.output_result_path}/gen_text_batch_{epoch}.json", 'w', encoding='utf-8') as f:
         json.dump({"pred_label": gen_text_per_epoch}, f, indent=4, ensure_ascii=False)

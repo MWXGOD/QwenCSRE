@@ -94,20 +94,20 @@ swanlab.log({"test_loss": avg_test_loss})
 P_NER, R_NER, F1_NER, P_RE, R_RE, F1_RE, P_RTE, R_RTE, F1_RTE = model.on_validation_batch_end()
 
 swanlab.log({
-    # "P_NER": P_NER,
-    # "R_NER": R_NER,
-    # "F1_NER": F1_NER,
-    # "P_RE": P_RE,
-    # "R_RE": R_RE,
-    # "F1_RE": F1_RE,
+    "P_NER": P_NER,
+    "R_NER": R_NER,
+    "F1_NER": F1_NER,
+    "P_RE": P_RE,
+    "R_RE": R_RE,
+    "F1_RE": F1_RE,
     "P_RTE": P_RTE,
     "R_RTE": R_RTE,
     "F1_RTE": F1_RTE
 })
 
 logger.info(f"Test Loss: {avg_test_loss:.6f}")
-# logger.info(f"NER  -> P: {P_NER:.4f}, R: {R_NER:.4f}, F1: {F1_NER:.4f}")
-# logger.info(f"RE   -> P: {P_RE:.4f}, R: {R_RE:.4f}, F1: {F1_RE:.4f}")
+logger.info(f"NER  -> P: {P_NER:.4f}, R: {R_NER:.4f}, F1: {F1_NER:.4f}")
+logger.info(f"RE   -> P: {P_RE:.4f}, R: {R_RE:.4f}, F1: {F1_RE:.4f}")
 logger.info(f"RTE  -> P: {P_RTE:.4f}, R: {R_RTE:.4f}, F1: {F1_RTE:.4f}")
 
 # 保存结果
