@@ -27,7 +27,7 @@ time_str = datetime.now().strftime("%m-%d-%Y-%H-%M-%S")
 swanlab.init(
     project=hyperargs.swanlab_project_name,
     config=hyperargs.__dict__,
-    experiment_name=f"MWX-Whisper-Demo-{time_str}"
+    experiment_name=f"MWX-Qwen2Audio-Demo-{time_str}"
 )
 
 # 数据
