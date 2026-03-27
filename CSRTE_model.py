@@ -176,11 +176,13 @@ class QwenAudioRTEModel(L.LightningModule):
         gen_text_batch = self.processor.batch_decode(generated_ids, skip_special_tokens=True)
         lab_text_batch = self.processor.batch_decode(labels, skip_special_tokens=True)
 
-        batch_rte_lab = self.batch_text2rte(lab_text_batch)
-        batch_rte_gen = self.batch_text2rte(gen_text_batch)
+        batch_rte_lab, batch_ner_lab, batch_re_lab = self.batch_text2rte(lab_text_batch)
+        batch_rte_gen, batch_ner_gen, batch_re_gen = self.batch_text2rte(gen_text_batch)
 
         self.compute_metric_step_update_4_rte(batch_rte_lab, batch_rte_gen)
-
+        self.compute_metric_step_update_4_ner(batch_ner_lab, batch_ner_gen)
+        self.compute_metric_step_update_4_re(batch_re_lab, batch_re_gen)
+        
         return gen_text_batch, lab_text_batch, val_loss
 
     def on_validation_batch_end(self):

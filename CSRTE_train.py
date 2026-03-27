@@ -1,6 +1,6 @@
 import os
 import math
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 import json, time, torch, argparse, swanlab
 from tool import Hyperargs, read_data
 from tqdm import tqdm
