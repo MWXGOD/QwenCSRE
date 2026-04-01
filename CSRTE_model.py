@@ -295,8 +295,11 @@ class QwenAudioRTEModel(L.LightningModule):
 
     def compute_metric_step_update_4_rte(self, batch_rte_lab, batch_rte_gen):
         for brl, brp in zip(batch_rte_lab, batch_rte_gen):
+            # print(self.P_RTE, self.R_RTE, self.C_RTE)
+            # print(set(brp), set(brl))
             brl = [l.lower() for l in brl if l != "None"]
             brp = [p.lower() for p in brp if p != "None"]
+            # print(set(brp), set(brl))
             self.P_RTE += len(set(brp))
             self.R_RTE += len(set(brl))
             self.C_RTE += len(set(brp) & set(brl))

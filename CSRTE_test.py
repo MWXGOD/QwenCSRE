@@ -18,11 +18,11 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--args_path', type=str, default='csrte_args/CoNLL04_Qwen_LoRA.json')
+parser.add_argument('--args_path', type=str, default='csrte_args/CSRTE_Qwen_LoRA.json')
 parser.add_argument(
     '--ckpt_path',
     type=str,
-    default='output/CoNLL04/Qwen2Audio-7B_checkpoint/Qwen2Audio-7B_checkpoint.bin'
+    default='output/CSRTE/Qwen2Audio-7B_checkpoint/Qwen2Audio-7B_checkpoint.bin'
 )
 shell_args = parser.parse_args()
 
@@ -91,7 +91,7 @@ avg_test_loss = test_loss_per_epoch / len(test_dataloader)
 swanlab.log({"test_loss": avg_test_loss})
 
 # 计算指标
-P_NER, R_NER, F1_NER, P_RE, R_RE, F1_RE, P_RTE, R_RTE, F1_RTE = model.on_validation_batch_end()
+P_NER, R_NER, F1_NER, P_RE, R_RE, F1_RE, P_RTE, R_RTE, F1_RTE = model.on_test_batch_end()
 
 swanlab.log({
     "P_NER": P_NER,
