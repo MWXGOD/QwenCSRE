@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python CSRTE_train.py --args_path csrte_args/CSRTE_Qwen_LoRA.json

@@ -273,8 +273,8 @@ class QwenAudioRTEModel(L.LightningModule):
         final_rte = []
         for re_item in text.split("$$"):
             re_item = re_item.strip()
-            final_rte.append(re_item)
             if re_item:
+                final_rte.append(re_item)
                 re_item_element = re_item.split("##")
                 if len(re_item_element) == 3:
                     final_ner.append(re_item_element[0])
